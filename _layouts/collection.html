@@ -15,7 +15,7 @@
 
        </div>
        <div class='col-md-' style='text-align:right;'>
-       <a href="https://mcgrawcenter.github.io/mirador/?manifest={{site.url}}/manifests/{{page.manifest}}" target="_blank"><img src="{{site.baseurl}}/assets/images/iiif-logo.png" style='height:32px'/></a>
+       <a href="https://mcgrawcenter.github.io/mirador/?manifest={{site.url}}/manifests/{{page.manifest}}" target="_blank"><img src="{{site.url}}/assets/images/iiif-logo.png" style='height:32px'/></a>
        </div>       
       </div>    
       <div class='row'>
@@ -114,7 +114,7 @@
 	  <div class='tile-image' data-manifest='"+o.id+"'><a href='#' class='hi'><img src='"+o.thumbnail+"'></a></div>\
 	  <div class='tile-title'>"+o.label+"</div>\
 	  <div class='tile-tools'>\
-	    <a href='https://mcgrawcenter.github.io/mirador/?manifest="+o.id+"' target='_blank'><img src='http://localhost:4000/assets/images/iiif-logo.png' style='height:22px;'></a>\
+	    <a href='https://mcgrawcenter.github.io/mirador/?manifest="+o.id+"' target='_blank'><img src='{{site.url}}/assets/images/iiif-logo.png' style='height:22px;'></a>\
 	  </div>\
 	 </li>";
   
