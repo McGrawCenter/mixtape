@@ -1,0 +1,347 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://etcpanel.princeton.edu/IIIF",
+    "@type": "sc:Collection",
+    "label": "Playing cards",
+    "summary": "",
+    "requiredStatement": "",
+    "manifests": [
+        {
+            "@id": "https://dlc.library.columbia.edu/iiif/3/presentation/10.7916/D88H039Z/manifest",
+            "@type": "Manifest",
+            "label": "52 Counties of England and Wales geographical playing cards",
+            "thumbnail": "https://derivativo-2.library.columbia.edu/iiif/2/cul:4xgxd255tv/full/,200/0/default.jpg"
+        },
+        {
+            "@id": "https://dlc.library.columbia.edu/iiif/3/presentation/10.7916/D80Z8KZ9/manifest",
+            "@type": "Manifest",
+            "label": "52 Counties of England and Wales geographical playing cards",
+            "thumbnail": "https://derivativo-4.library.columbia.edu/iiif/2/cul:dz08kprsrm/full/,200/0/default.jpg"
+        },
+        {
+            "@id": "https://dlc.library.columbia.edu/iiif/3/presentation/10.7916/D84Q9BM4/manifest",
+            "@type": "Manifest",
+            "label": "All the Bubbles playing cards",
+            "thumbnail": "https://derivativo-1.library.columbia.edu/iiif/2/cul:qrfj6q58sf/full/,200/0/default.jpg"
+        },
+        {
+            "@id": "https://dlc.library.columbia.edu/iiif/3/presentation/10.7916/D8RF7BNN/manifest",
+            "@type": "Manifest",
+            "label": "Armorial playing cards",
+            "thumbnail": "https://derivativo-4.library.columbia.edu/iiif/2/cul:qbzkh18bq5/full/,200/0/default.jpg"
+        },
+         {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8KS885T\/manifest",
+            "@type": "Manifest",
+            "label": "Delightful playing cards",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:h9w0vt4cwz\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8G17HFD\/manifest",
+            "@type": "Manifest",
+            "label": "Early woodcut playing cards",
+            "thumbnail": "https:\/\/derivativo-2.library.columbia.edu\/iiif\/2\/cul:p8cz8w9j4k\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8QG09GC\/manifest",
+            "@type": "Manifest",
+            "label": "Fortune-Telling Playing Cards",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:51c59zw586\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8001JSB\/manifest",
+            "@type": "Manifest",
+            "label": "Geographical playing cards showing Europe",
+            "thumbnail": "https:\/\/derivativo-2.library.columbia.edu\/iiif\/2\/cul:h70rxwdd9d\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8B86RR4\/manifest",
+            "@type": "Manifest",
+            "label": "Gioco Geografica dell'Europa",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:931zcrjg2z\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D86H612N\/manifest",
+            "@type": "Manifest",
+            "label": "Il Giuoco Cronologico Storico [playing cards]",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:kprr4xh013\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D82R58BX\/manifest",
+            "@type": "Manifest",
+            "label": "Hand-drawn playing cards",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:ncjsxkspmf\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8T7412Q\/manifest",
+            "@type": "Manifest",
+            "label": "Heraldry playing cards",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:wpzgmsbf2f\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8Z04RR6\/manifest",
+            "@type": "Manifest",
+            "label": "Jeu d'Armoiries [playing cards], second edition",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:h44j0zpdvj\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8F20GB1\/manifest",
+            "@type": "Manifest",
+            "label": "Jeu d'Armoiries [playing cards], third edition",
+            "thumbnail": "https:\/\/derivativo-2.library.columbia.edu\/iiif\/2\/cul:4b8gtht8tm\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8PK1ZRX\/manifest",
+            "@type": "Manifest",
+            "label": "Jeu de Geographie ou sont les quatre parties du monde",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:k0p2ngf3hc\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8989QPN\/manifest",
+            "@type": "Manifest",
+            "label": "Jeu de la Guerre [playing cards]",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:z34tmpg608\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D85H8ZXG\/manifest",
+            "@type": "Manifest",
+            "label": "Jeu des Fables [playing cards]",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:jh9w0vt5w7\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D81R874N\/manifest",
+            "@type": "Manifest",
+            "label": "Jeu des Fortifications [playing cards]",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:tqjq2bvrt9\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8D23F8J\/manifest",
+            "@type": "Manifest",
+            "label": "Latin grammar playing cards",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:pc866t1hkm\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8HT45Z3\/manifest",
+            "@type": "Manifest",
+            "label": "Love Mottos playing cards",
+            "thumbnail": "https:\/\/derivativo-2.library.columbia.edu\/iiif\/2\/cul:kkwh70s0gd\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8NK4XN0\/manifest",
+            "@type": "Manifest",
+            "label": "Ludlow & Co. Patent Knight's Cards",
+            "thumbnail": "https:\/\/derivativo-2.library.columbia.edu\/iiif\/2\/cul:dncjsxkv77\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8892PJT\/manifest",
+            "@type": "Manifest",
+            "label": "Marlborough's Victories playing cards",
+            "thumbnail": "https:\/\/derivativo-2.library.columbia.edu\/iiif\/2\/cul:qrfj6q58sg\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D84J1XQR\/manifest",
+            "@type": "Manifest",
+            "label": "Masquerade Cards",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:2bvq83bmss\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8W39CX6\/manifest",
+            "@type": "Manifest",
+            "label": "Minchiate tarot deck",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:pzgmsbcdns\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8RB8N7B\/manifest",
+            "@type": "Manifest",
+            "label": "Miniature deck of standard playing cards with French suits",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:q2bvq83d68\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8C26D3Q\/manifest",
+            "@type": "Manifest",
+            "label": "No revoke playing cards",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:66t1g1jzcv\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D83J4WKC\/manifest",
+            "@type": "Manifest",
+            "label": "Non-standard no-revoke playing cards",
+            "thumbnail": "https:\/\/derivativo-2.library.columbia.edu\/iiif\/2\/cul:dr7sqv9trm\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8ZW33HS\/manifest",
+            "@type": "Manifest",
+            "label": "Nouvelles cartes a jouer de la republique francaise [playing cards]",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:7m0cfxpqf1\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8QC1M4Z\/manifest",
+            "@type": "Manifest",
+            "label": "Nuevo Juego d'Officieros = Neues Officer-Spiehl playing cards",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:ns1rn8pmkz\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8KM0VG4\/manifest",
+            "@type": "Manifest",
+            "label": "Orange playing cards",
+            "thumbnail": "https:\/\/derivativo-2.library.columbia.edu\/iiif\/2\/cul:9cnp5hqdjv\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8FV03PW\/manifest",
+            "@type": "Manifest",
+            "label": "Pasquins Windkaart [playing cards]",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:73n5tb2sws\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8B29BXG\/manifest",
+            "@type": "Manifest",
+            "label": "Pastime playing cards",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:g1jwstqm8k\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8JM3T8V\/manifest",
+            "@type": "Manifest",
+            "label": "Playing cards from the French Revolution",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:z612jm65jh\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D82N6JV9\/manifest",
+            "@type": "Manifest",
+            "label": "Playing cards from the French Revolution",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:9kd51c5chk\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8XW62DV\/manifest",
+            "@type": "Manifest",
+            "label": "Playing cards from the French Revolution",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:m37pvmcwxd\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8DV32GM\/manifest",
+            "@type": "Manifest",
+            "label": "Playing cards from the French Revolution, Lyon style",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:sqv9s4mxw6\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D81N9HRC\/manifest",
+            "@type": "Manifest",
+            "label": "Playing cards from the French Revolution, Type II, 2nd ed",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:12jm63xv31\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8WW91BC\/manifest",
+            "@type": "Manifest",
+            "label": "Playing cards showing the geography of Europe",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:tdz08kptc8\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8NC7HVS\/manifest",
+            "@type": "Manifest",
+            "label": "Playing cards with elegant non-standard court cards",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:tb2rbnzttc\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8CZ4QT2\/manifest",
+            "@type": "Manifest",
+            "label": "Popish Plot playing cards #1",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:h18931zf9t\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8HM6S2K\/manifest",
+            "@type": "Manifest",
+            "label": "Popish Plot playing cards #3",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:8pk0p2nj0g\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8864020\/manifest",
+            "@type": "Manifest",
+            "label": "Popish Plot playing cards #la",
+            "thumbnail": "https:\/\/derivativo-2.library.columbia.edu\/iiif\/2\/cul:n5tb2rbqjs\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D84F37CQ\/manifest",
+            "@type": "Manifest",
+            "label": "Proverbs playing cards",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:02v6wwq11q\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D80P2GPF\/manifest",
+            "@type": "Manifest",
+            "label": "Reign of Queen Anne playing cards",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:p2ngf1vk2s\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8VX2070\/manifest",
+            "@type": "Manifest",
+            "label": "Rois de France [playing cards]",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:vdncjsxng3\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8R517D7\/manifest",
+            "@type": "Manifest",
+            "label": "Rulers & arithmetic playing cards",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:3j9kd51dqk\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D89C8F2X\/manifest",
+            "@type": "Manifest",
+            "label": "Sheet of 14 playing cards with German suits, all partial",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:ncjsxkspmd\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D85M7PCN\/manifest",
+            "@type": "Manifest",
+            "label": "Sheet of 16 playing cards, some partial",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:q573n5tcp4\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D81V6XNX\/manifest",
+            "@type": "Manifest",
+            "label": "Sheet of 24 playing cards, some partial",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:msbcc2fsjs\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8SB5PCQ\/manifest",
+            "@type": "Manifest",
+            "label": "Sheet of 30 playing cards cards, some partial",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:wh70rxwg08\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8D524KH\/manifest",
+            "@type": "Manifest",
+            "label": "Songs playing cards",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:dr7sqv9trk\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8HX2W9J\/manifest",
+            "@type": "Manifest",
+            "label": "Spanish Armada playing cards",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:ksn02v6zj3\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D80V9WFN\/manifest",
+            "@type": "Manifest",
+            "label": "Standard deck of miniature playing cards with French suits",
+            "thumbnail": "https:\/\/derivativo-4.library.columbia.edu\/iiif\/2\/cul:fqz612jnvp\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D82N6JWR\/manifest",
+            "@type": "Manifest",
+            "label": "Standard deck of playing cards with French suits",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:pg4f4qrh5g\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8NG679Z\/manifest",
+            "@type": "Manifest",
+            "label": "Standard deck of playing cards with French suits",
+            "thumbnail": "https:\/\/derivativo-1.library.columbia.edu\/iiif\/2\/cul:cfxpnvx26d\/full\/,200\/0\/default.jpg"
+        },
+        {
+            "@id": "https:\/\/dlc.library.columbia.edu\/iiif\/3\/presentation\/10.7916\/D8T74135\/manifest",
+            "@type": "Manifest",
+            "label": "Standard deck of playing cards with French suits",
+            "thumbnail": "https:\/\/derivativo-3.library.columbia.edu\/iiif\/2\/cul:qrfj6q58sd\/full\/,200\/0\/default.jpg"
+        }
+    ]
+}
+

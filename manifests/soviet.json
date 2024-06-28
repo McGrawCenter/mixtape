@@ -1,0 +1,2989 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/collection/top",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "Soviet Children's Books"
+    ]
+  },
+  "summary": {
+    "en": [
+      "A collection of Soviet children's books from the Princeton University's Cotsen Children's Library"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/24663839-2d05-4acc-83b5-a08031e8a9c5/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Daesh novu'iu detsku'iu knigu / razrabotali A. Gelina, G. i O. Chichagovy"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/46%2Fd6%2F69%2F46d66914326842ca986dca271eec1e20%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/862c8f8b-a04f-47bf-b214-2ec43a9375f0/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Krasnai︠a︡ Armii︠a︡."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/16%2Fff%2F64%2F16ff64fe02234654a7faf66788149651%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a6a47775-d9d5-4dbf-8ee6-97da547d7ce3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Revoli︠u︡t︠s︡ionnyĭ raboche-krestʹi︠a︡nskiĭ bukvarʹ dli︠a︡ vzroslykh."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/56%2F1f%2F7d%2F561f7dff02174d65908d900ac9827619%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/694b3fb8-af0c-4d4a-ae51-72cb4dfd0051/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bolʹshevistskiĭ slet 16 sʺezd VKP(b)."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e8%2Ffc%2F66%2Fe8fc66f79a7b4c9b852388ed6dbb71a9%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/7a7ac253-068c-487e-b22d-886bbc87928d/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Andre Marti / risunki N. Kupreianova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/7d%2F8b%2Ff6%2F7d8bf60c3c2447968ee282d6954e1ad6%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/50d890ff-8b14-4f70-982e-81f412927c68/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Revoli︠u︡t︠s︡ionnyĭ raboche-krestʹi︠a︡nskiĭ bukvarʹ dli︠a︡ vzroslykh."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/c3%2Ff9%2F98%2Fc3f998ef2ab944d1a1542e7bd01c9c05%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/bcb47fd9-73af-47d1-8b52-c639a18998cb/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Muzhik Opanas, chto poni︠a︡l nas, i rabochiĭ Mikhail, chto vraga pobedil / [Martyn Zadeka]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/fa%2F2f%2Fe2%2Ffa2fe2c5ac0747bebb6a184e452d82ce%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/6db7d38f-ed7f-4358-be73-5f9bdd4f39a6/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Nashi vragi i druzʹi︠a︡ / [tekst N. Studenetskogo ; risunki A. Konevskogo]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/97%2F40%2F41%2F9740419ab7564747bb6c9726ffcc570f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/0a997ce1-7678-49a9-81bb-be760cc62bef/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Skazka pro delo / Mikhail Gal'perin ; risunki Vitalii︠a︡ Vermelʹ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/7a%2F1a%2F51%2F7a1a51ec2ec841909f1c9fb01a737e73%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/4e3065cb-b697-4ff2-b955-7bd2accb4357/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Конная Буденного / В. Курдов ; [стихи А. Введенского].",
+          "Konnai︠a︡ Budennogo / V. Kurdov ; [stikhi A. Vvedenskogo]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/98%2F4b%2F1f%2F984b1f87ed6d4551aeb68a1025eea4cc%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/00c05a08-88af-4aa3-83cb-1c21b77fc1f5/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Znakomye neznakomt︠s︡y / N. Agnivt︠s︡ev ; risunki P. Pastukhova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/8d%2F8d%2F28%2F8d8d28c3e7c244a0a9d72f602a133a5f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/cfb11803-5b49-4416-9563-d68b32b0aab0/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Доска соревнования на ликвидацию прорыва / С. Маршак ; рисунки В. Лебедева.",
+          "Doska sorevnovanii︠a︡ na likvidat︠s︡ii︠u︡ proryva / S. Marshak ; risunki V. Lebedeva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/4e%2F1b%2Fb3%2F4e1bb384956f4f6b9d31432e0dbe8ff2%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/e1b0aa3f-35cb-421a-95b9-0fe3aea20ef2/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Azbuka krasnoarmeĭt︠s︡a / D. Moor."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/2f%2Fb9%2Fc8%2F2fb9c803572a42d9bed094c82c66de74%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/50047dca-cdb6-4335-84ea-38aa706136a0/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Neftʹ / tekst E. Khazina ; N. Shifrin."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/2b%2F15%2F23%2F2b1523f5c36746c8bef6f959d561a74c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/b0275a58-d2fc-4645-81a8-a19db295adcb/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mamin most / N. Sakonskai︠a︡ ; [risunki T. Zvonarevoĭ ; redaktor E. Shabad ; khud. redaktor M. Seregin ; tekh. redaktor F. Markelov]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/9a%2Fde%2Fa6%2F9adea6dbacb64578b8b7cffb1e3d9ae1%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/6c45c04e-05f6-4a8e-adcc-d4f918439a86/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Nashi tropiki / L. Bruni."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/7c%2F39%2Fde%2F7c39dea4f6574465b3f54ce129e4e782%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/0a0d95f6-d67f-492f-ae37-6affefc6f8c6/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kuznet︠s︡kstroĭ : sot︠s︡ialisticheskiĭ gigant / [risunki i tekst M. Gurevicha i A. Igumnova]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/1c%2F00%2F69%2F1c0069fc9538475688770059c61336c5%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/7a9f068e-3911-400e-b360-df328dfc4341/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Russkim di︠e︡ti︠a︡m : [narodnyi︠a︡ russkīi︠a︡ skazki, pi︠e︡sni, shutki] / [redaktirovala N.I. Butkovskai︠a︡, risoval A. Shervashidze]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/32%2F93%2Fec%2F3293ec3096194ad3adaf30997d4d2e95%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a6a41065-b000-493a-94ad-709e69a26d1e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Что это такое? / В. Грюнталь и Г. Яблоновский ; редактор, М. Гершензон.",
+          "Chto ėto takoe? / V. Gri︠u︡ntalʹ i G. I︠A︡blonovskiĭ ; redaktor, M. Gershenzon ; tekhred. L. I︠U︡rkevich."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/a9%2Fea%2F57%2Fa9ea5779f98946e29a0bcbca1387b529%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/21831aaa-f8f7-458c-9701-ba3434c25bf0/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Port / Semen Polot︠s︡kiĭ, Ėduard Krimmer."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/27%2Fc8%2F2f%2F27c82f70942945e09a717f3919229a96%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/e50d8bc5-069d-41a9-906c-3f1f997eb13e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Strana durakov : [i︠a︡ponskai︠a︡ skazka / pereskazali A. Leĭfert i I︠A︡. Meksin ; risunki D. Shterenberga]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/7d%2F34%2Fa6%2F7d34a6c65f8143ed9f2c5da6d1ce821c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/e0d431fc-b036-4633-9781-58e64c8c9d8f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bobka fizkulʹturnik / A. Mariengof, D. Shterenberg."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/47%2Ff3%2F58%2F47f3589ed235439a8e4284ecb8d691dc%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8bcfaba3-b543-498a-808b-cecaa29c2e42/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Radio-brigada / E. Tarakhovskai︠a︡ ; risunki E. Abramovoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/af%2Fa1%2F4e%2Fafa14eaa8da84c91a94ce1bb0edc0e8c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/1a31e9d5-98f7-4eb4-9c19-93f0a2c1acfc/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Trinadt︠s︡atʹ okti︠a︡breĭ / V. Petrov ; ris. Poret."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/a1%2F73%2Fe0%2Fa173e041c03347ec9a909891db4582c9%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a51c2909-3ba6-4b98-92e2-2a77eabfc367/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "O tom, kak Kolʹka Pankin letal v Brazilii︠u︡, a Petʹka Ershov nichemu ne veril / Kharms ; risunki E. Ėvenbakh."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/46%2Ff1%2Fb5%2F46f1b5e9eca14f439dc081f1a10f90ea%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/670a4b91-a822-47e1-865d-0489698acddf/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Komsomolskoe plemi︠a︡ / tekst K. Piskunova ; risunki S. Boim, B. Sukhanova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/0e%2F24%2F2c%2F0e242ceb162f4bf1b11f9188859aa985%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/62192394-3328-441e-ab7f-b17f25a33427/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zhen'ka pioner / S. Polot︠s︡kiĭ i E. Khiger"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/6f%2Fc5%2Fb3%2F6fc5b3a02c76495487d3d06896a5f2ea%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/83a08136-1638-4561-b063-eaecdc434f7e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Shestʹ--desi︠a︡t : (norvezhskai︠a︡ skazka) / A. Alekseeva ; risunki N. Iznar."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/dc%2F5d%2Ff7%2Fdc5df71ccc0a4691b7e2ac20ea4606b0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/10bd220e-04d7-48f9-b0d8-81d64df2f863/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "T︠s︡ari i revoli︠u︡t︠s︡ionery / Anna Grinberg ; risunki A. Breĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/b7%2F60%2F32%2Fb76032a4085c4d1c9ae0057ded7b7611%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/059a8e6b-e3aa-4d3d-a1af-4b2837eba1f8/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Okti︠a︡bri︠a︡tskai︠a︡ / Natan Vengrov ; N. Shifrin."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/08%2Fa5%2F19%2F08a519202d544d938cdaa6bd370a6d17%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/aad6717e-c0b1-41bd-8709-b8982d21c9f2/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "От каучука до калоши / Ольга Дейнеко и Николай Трошин ; рисунки авторов.",
+          "Ot kauchuka do kaloshi / Olʹga Deĭneko i Nikolaĭ Troshin ; risunki avtorov."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f5%2F2a%2F3f%2Ff52a3ff677c940938fe9c070d37565ee%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/07a5438c-5b9e-4c72-83a4-a676f98299fe/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pervoe mai︠a︡ / tekst A. Barto ; risunki A. Deĭneka."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/00%2Ff4%2F14%2F00f4149a844c4fb7914fcb10f86b5407%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/38d98ac2-a645-4916-b551-c4a56e0db3ff/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Хлебозавод / К. Коновалова ; рисунки Курбатова.",
+          "Khlebozavod / K. Konovalova ; risunki Kurbatova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/5f%2Fac%2Fcd%2F5faccd29033a46e2aa495f06d25d0b06%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/054a74f2-465c-4435-8e68-6de23890bfaa/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Krylʹi︠a︡ sovetov / I. Stuchinskai︠a︡ ; oblozhka, montazh i akt︠s︡entirovka teksta P. Suvorova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e8%2F34%2F0e%2Fe8340e6b415d492b8279b6450e777aa3%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/7fe21148-fe9f-473f-af19-41818ace6771/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pi︠a︡tiletka : risunki i maket / A. Lapteva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/11%2F23%2F23%2F112323e20e6b4f9b85e44c7f8be3ecb7%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/050ee76e-0d88-417d-8f5c-f513269891fa/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Смотр игрушек самоделок / Е. Ульрих, Н. Саконская.",
+          "Smotr igrushek samodelok / E. Ulʹrikh, N. Sakonskai︠a︡ ; [risunki M. Sini︠a︡kova ; redaktor E. Shabad ; tekh. redaktor P. Suvorov]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e9%2F50%2Ff2%2Fe950f21c79b24539a302655f52fed6f1%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/cb5d1425-180a-404c-bcb4-962563dce583/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "MI︠u︡D / V.V. Mai︠a︡kovskiĭ; risunki i oblozhka V. Ivanovoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/8d%2Fb3%2F15%2F8db3157a94104719ac98c1ccafbfed96%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/466dfb69-ca30-4935-8e4c-22d23a064163/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Khlebozavod No. 3 / Nikolaĭ Troshin, Olʹga Deĭneko ; risunki avtorov."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f8%2F23%2Fa5%2Ff823a511e40d4477807b3550d3332c87%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ab3ec337-3fdc-48bd-99dc-370e573ac29f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Война с Днепром / С. Маршак ; рис. Г. Бибикова.",
+          "Voĭna s Dneprom / S. Marshak ; ris. G. Bibikova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f4%2F07%2F9d%2Ff4079d8053ae4647bdd38c074e3ac52b%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8affd9e5-8ec5-479c-a9a2-b95025fecbd9/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chʹi ėto igrushki? / tekst Ė. Papernoĭ i I. Karnaukhovĭ ; A. Poret."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/08%2F4e%2F48%2F084e48a2b21444ce8e25703ce48ebb52%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/f5dd00e0-3c70-4088-b0fc-062b35fbf715/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sovetskai︠a︡ azbuka."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f3%2Ff6%2F17%2Ff3f6172cae6843fcafb126516aa51373%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/e1d06871-a984-4a5e-a888-5621d02cca54/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "2 pervomai︠a︡ / Usto Mumin ; [tekst E. Shvart︠s︡]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/b8%2F3c%2F8c%2Fb83c8cc8a9964930941a3c2f78e7d91a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/30fd9e66-89c1-4846-9e32-e628b585eeac/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pereletnye gosti / L. Kassilʹ ; [khudozhnik A. Eliseevnin]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/84%2Fc9%2F8f%2F84c98f017a734011a4b22df6d85b7022%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/e8930e9d-76d6-4ac0-b42d-42787da3e995/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kolkhoznai︠a︡ vesna / poema Z. Aleksandrovoĭ ; risunki A. Lapteva ; [redaktor E. Shabad ; khud. redaktor V. Lan]"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/08%2F0d%2F55%2F080d553e06d34eae96c793d55eedb2eb%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/0455b386-b021-4e2d-bb35-e4b4772b0c22/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Plotnik / Boris Zhitkov ; risunki A. Samokhvalova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f8%2F40%2F27%2Ff84027b9ad8d40edaff51ce7df5403fe%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/fec23aba-b985-4d14-be5e-da371f90bc81/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Памятка юной санитарки.",
+          "Pami︠a︡tka i︠u︡noĭ sanitarki / [E. Tarakhovskai︠a︡; risunki I︠U︡. Ganf]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/87%2Fd6%2F78%2F87d678da6fcd46d6bcefaff89e77999a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/7d8a82d6-e617-433e-b5e9-57cdc71d726d/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Egor monter / N.G. Smirnov, Galina Chichagova, Olʹga Chichagova ; foto Zubkova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e3%2Ff6%2Fa2%2Fe3f6a29db94b45d3afa527e9da99a749%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/678fb869-c5de-4e5a-a1b7-2cd71ff663ec/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kolʹka i Lenin : rasskaz dli︠a︡ deteĭ / Iv. Molchanov ; [risunki S. Kostina]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/58%2Fe9%2F5f%2F58e95f4ee3c64580858b702773da2339%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/efe86583-f95f-4b5b-b6cb-df248477b127/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Andrė Marti / risunki N. Kupreianova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/6d%2F04%2Fe3%2F6d04e38c7828472b84f78725b0c394da%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/135982bc-d86c-495b-b5ba-f1fd2e41234c/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mongolii︠a︡ / F. Fedotov ; [risunki T. Zvonareva ; redaktor E. Shabad; tekh. redaktor N. Isaeva]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/34%2Ff9%2Ffa%2F34f9fab64ec446888399dbb3898982fc%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/32e2034e-5414-4295-b7f6-edc1aaf995f4/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Okti︠a︡brʹ 1917-1918 : geroi i zhertvy revoli︠u︡t︠s︡iĭ / risunki Boguslavskoĭ, Kozlinskogo, Maklet︠s︡ova i Puni."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f0%2Fa0%2Fb5%2Ff0a0b5980577430ba487a7cea91f2a90%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/7271c39a-2686-4b20-9273-d794ffd9848a/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "80,000 loshadeĭ / V. Voinov ; risunki B. Pokrovskogo."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/3b%2Ff7%2F4f%2F3bf74f7d46ea48999fbf6fb04b5b76c0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ff7bce25-1c9b-4cd9-a708-bcd9fa4d4e04/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Korabli / V. Tambi."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/7a%2F26%2F56%2F7a2656e6a7884e779d118a9f5cbf67ab%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/9ab4b12a-bebc-44e5-a25e-caa2da187c3c/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chernyĭ sokol / Vitaliĭ Bianki ; risunki i oblozhka khudozhnika E. Charushina."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f4%2Ff2%2F7b%2Ff4f27b82b3034477aa088957696ca284%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/84a8de53-e847-4278-83cf-4f36ceaf8f8e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Anika-voin / Mikhail Andreev ; risunki V. Svaroga."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/bd%2F82%2F10%2Fbd8210e229464a0eb6d67d4f55161dea%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/acf964a8-51cd-41bf-8deb-6d3010b377b2/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pionery / A. Barto ; kartinki K. Kuznet︠s︡ova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/85%2F52%2F4b%2F85524b75924c48f193588d08672b4c60%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/cab71d54-6ac9-484a-baa0-adc0d4224d5f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Oshibka / Semen Polot︠s︡kiĭ ; risunki V. Tronova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/43%2F30%2F98%2F433098eb903e4752ae509537bd5822da%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/dd7f4a41-899c-4eb5-af90-7ea7e7bf27b3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vstrechi s Tovarishchem Stalinym / G. Baĭdukov ; risunki B. Dekhtereva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ce%2F2e%2F59%2Fce2e59294bdf4651af7c18040c239c14%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/1da3007c-b7db-46ee-bc57-5424fbf55f8f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kak pobedila revoli︠u︡t︠s︡ii︠a︡ / risunki A. Poret."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/49%2Fed%2Fc7%2F49edc785f50c4a2b89e2e5da7f0f2e17%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/be183b83-e339-41db-8c84-035e637ff815/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kak mashina zvereĭ vspoloshila / S. Fedorchenko ; risunki Iv. Efimova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f8%2F40%2Fc9%2Ff840c90a78b0428f9cf72415eb440302%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/181f7a9d-7e3c-4519-a79f-90113f65a14d/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Russkiĭ plakat, 1917-1922. Vypusk pervyi, V.V. Lebedev / tekst N.N. Punina."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/10%2Fca%2F91%2F10ca916db3a74672914a79af93c74777%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/7343d24e-e838-4b3f-b45c-a93535bfaffa/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vperedi vsekh / V. Kaverin ; risunki A. Pakhomova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/30%2Fc2%2Fe9%2F30c2e9a724394b51ad86706c1c68bfef%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/3899323c-3a2d-4bce-b965-b2a4dc86d4ba/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chto my stroim : Tetradʹ s kartinkami / L. Savelʹev i V. Tambi."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/5f%2F9a%2Fc5%2F5f9ac58fc7b048e29179588eb6168c44%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/9af70d7c-2d1b-45ec-b826-89012a93c31a/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Solʹ / I. Karov ; [risunki S. Mochalova]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/1a%2Fc5%2F48%2F1ac548d7a06a491f9faf1cba4dc4ad99%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a47552a2-d1b1-47a2-b33b-d4fb32b39350/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bolʹshevik Tom / stikhi Nadezhdy Pavlovich ; risunki B.M. Kustodieva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/25%2Ffb%2F0a%2F25fb0a3e17634b7db5ce717704617086%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/6f816e3e-77b1-4149-964e-96117a38e9c7/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Parad Krasnoĭ Armii / risunki A. Deĭneka."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ad%2Fc8%2F9e%2Fadc89ec75fee496cac9574d2c8451b0d%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/be3402c8-574c-4c86-900d-570c2b7eedb8/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Gonki na vode / V. Tambi."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/40%2Fa6%2Ff6%2F40a6f6f83e7946b2a06f21b641494c0e%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/2635278b-d6a7-482d-9a56-103f6c8cf1ce/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bratyky / A. Barto ; pereklad Oksany Ivanenko ; mali︠u︡nky Kesha ; redaktor I︠U︡. Gorbenko."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/30%2F10%2Ff6%2F3010f6c0e16b45189e6db5e1e5b88088%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8540b9f2-6c92-4906-b528-ce10bbafd428/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Tvoi mashinnye druz'i︠a︡ / N. Agnivt︠s︡ev ; ris. Aleksei︠a︡ Efimova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/03%2Fc0%2Fff%2F03c0ff4570d6448fa20be6ff49d1e437%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/fb1f4cf0-9acb-4c3e-a32e-c2380b11b7ad/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chto takoe k︠h︡orosho i chto takoe plok︠h︡o? / V. Mai︠a︡kovskiĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e7%2F07%2Fea%2Fe707eaa0be31470aa414150cef0f7601%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/20268385-c08a-41be-bb8e-f223efce5525/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "O shesterykh vot ėtikh / N. Agnivt︠s︡ev ; risunki K. Rudakova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/93%2F59%2F53%2F935953a2beff48108f059535c64f712f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/1b2f0e94-05c8-4e61-9eb0-201f18412297/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pro lenti︠a︡i︠a︡ Ivanycha / A. Barto ; P. Arbatov ; risunki G. Dina."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/85%2F5a%2Fc4%2F855ac441700a4c1d84f9d0d460015e5a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/2a15da6f-ebb6-4279-b3a6-9f29a1459b4f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ugadaĭ / S. Fedorchenko ; N. Ushakova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f4%2Fe8%2F51%2Ff4e851b3294f4999bfbc550a940914a9%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8c2ec36d-629a-4dd2-b682-6c3675e24aee/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Lodka vezdekhodka [Glisser] / L. Kassilʹ ; khud: E. Nekrasov ; redaktor: Kompaneet︠s︡ ; rekhred. L. I︠U︡rkevich."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/b3%2F5f%2Fc2%2Fb35fc27e2dd44477ab4c90c1e9546f4a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/383ef2b8-92c0-4593-8aa8-bf8dad4eb23a/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Skazka o voennoĭ taĭne o malʹchishe-kibalʹchishe i ego tverdom slove / Ark. Gaĭdar ; risunki V.M. Konashevicha."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/3a%2Fa4%2F21%2F3aa421e6b60b49f4b1450c8d0a000c50%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/06141bc9-e6af-403c-be76-bb74327e7fce/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Utro iz zhizni detskogo doma / sostavleno N.Ė. i E.Sh. ; risunki E.M. Shaposhnikovoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/90%2F1c%2Ff0%2F901cf060493642d5ac3ec52ec4ed8f1c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/22f8c35a-1f8d-4275-af88-82264bf6ecb1/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Knizhka pro knizhki / S. Marshak ; kartinki S. Chekhonina."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/1f%2F6d%2Fba%2F1f6dba3be69e4d8eaa5db87e76a9ebdf%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/226c4947-8525-4ba5-97b7-f14d8fcfe716/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ėstafeta / Mix. Ruderman, risunki i maket A. Lapteva"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/2c%2Fda%2Fe6%2F2cdae6e336c3406aa7b42d0ec486b2da%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8b1f1a2d-35d0-44ef-99d6-a5da59d8b6c2/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Turksib / V. Shklovskiĭ ; oblozhka i oformlenie knizhki V. Lant︠s︡etti i M. Seregina."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/47%2F51%2F00%2F47510085e2184f358c9fa47dd184d377%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/47447c1d-6aab-4575-bf39-1edcc14fb55e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chaĭ / D. Shterenberg."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/99%2F93%2F9e%2F99939efed5754064a756665e70043ce2%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/c6f3b961-1da2-44c8-84d2-ae89df0d3216/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Cherez poli︠u︡s v Ameriku / G. Baĭdukov ; risunki A. Deĭneka."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/3d%2F12%2Fcd%2F3d12cd055d0d4c20a606a7431e6ef799%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8038ecd6-384a-48a9-8e5b-ee22b9972394/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Radio-zhiraff / V. Kataev ; kartinki T. Pravosudovich."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e8%2F2b%2F0e%2Fe82b0e25ee3444ad93fd734ebc537a59%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/b1115dd3-629a-4ac7-8d88-19d133274bbe/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Okti︠a︡bri︠a︡ta : sbornik dli︠a︡ deteĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/c0%2Fa9%2F37%2Fc0a937b5b99249aa8a9b23f3c37a412d%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/c14da546-0833-4dd7-b635-e5777ceb4405/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mak i shishki / Ė. Kondiaĭn."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/b0%2F69%2F1f%2Fb0691fbcc9ac46958fcb3dd06ac88df0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/0e9c4770-ef01-4673-b8f3-fe5f3ccbd01a/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pionery v kolkhoze / K. Vysokovskiĭ ; ris. M. Shtern."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/b0%2Fb2%2F52%2Fb0b25251736547e7aec9933acad94793%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a0bfe24e-0610-4729-897d-e3edbfd36ca0/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Detskiĭ sad v berezovoĭ roshche / E. Ulʹrikh ; oblozhka i oformlenie V. Lant︠s︡etti."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/1d%2F08%2Ffb%2F1d08fb4591fd4dfb9c3bf196bbf9e99b%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/767325bf-5676-4c50-b9c1-d2839b39e884/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Immer berait! / Ė. Ėmden, S. Telingater."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/d6%2F53%2Fa3%2Fd653a3aa581c49f7b7129a4013d2ebcc%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/6b5d45d1-bb4c-4d90-ac7f-c12d02fd65de/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ne mozhet bytʹ! / Ėm. Mindlin ; ris. A. Mogilevskogo."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/2e%2F6c%2Fd2%2F2e6cd2d7803e4c64b4ad68fc11beae66%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/93440f15-4562-4cd3-b2d5-c9b235cd78b5/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Solnt︠s︡e i svechka / N. Agnivt︠s︡ev ; ris. V. Apostoli."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/79%2F7f%2F8e%2F797f8e775e464682bbd3f2b25e191647%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/5b7ef73a-79c4-4976-ac87-848f5256b680/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Nash Soi︠u︡z / M. Klokova ; risunki i oblozhka G. Echeistova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/11%2F3a%2F2e%2F113a2e38d169455a9804ad6b180afec5%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/22ba2412-0b2e-484e-b70a-335a9c9563f1/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mastera / L. Feĭnberg"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/8e%2Fd8%2F21%2F8ed821a15c5944bfb58f277a43e89d2f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/781a481b-47d5-4bb5-ab8f-e83cb3ceb960/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kak svekla sakharom stala / Olʹga Deĭneko i Nikolaĭ Troshin ; risunki avtorov."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/52%2F6f%2Fe2%2F526fe2480fa0478c873b96bf03566879%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/4d4bb67d-1dc6-4d21-ac19-08ca84b9ae1e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pochemu golubeĭ pozdno nakormili / R. Ėngelʹ ; risunki V. Konashevicha."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/a6%2F46%2Faa%2Fa646aa2d949046809d776f2a871a0c24%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/4666afbb-0159-417a-807b-b391ceefecf1/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Deti︠a︡m o Lenine / Sostavleno Institutom po detskomu chtenii︠u︡ ; pod red. A. Kravchenko ; risunki B. Kustodieva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/a5%2F62%2Ff0%2Fa562f0055ff442208c5721235323cbfd%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/965ec980-e838-4ec5-82ab-10b7ea8a16eb/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Nochnye strakhi / N. Aseev ; ris. A. Samokhvalov."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/0d%2Fa3%2F4a%2F0da34aa47d5b4ebca2efa231eb0daa25%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/22e83c43-1cc8-479f-82d4-a7efd4b51d3a/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Rabotnit︠s︡y / tekst L. Ostrounova; kartinki A. Plastova"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ad%2Ffb%2F54%2Fadfb547008214172a8f94c013e13ed9a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/697fff91-09dc-437a-b34f-db89cab4385f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Stroĭka / I︠A︡. Meksin ; [risunki K. Kuznet︠s︡ova]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e6%2F97%2F76%2Fe697767c95fa4670ad855aea6e1fe0be%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/24b82095-16a4-4477-b208-b6b743c08a32/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kartoshka / podpisi I︠A︡. Meksin; kartinki K. Kuznet︠s︡ova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/fb%2Fd6%2F22%2Ffbd622abe6c04910a76d812bfa7415f8%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/2b981adf-72d7-4ecb-8e66-c8cb0d36165b/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Selʹskiĭ trud / stikhi Mikh. Pavlova ; risunki dli︠a︡ raskrashivanii︠a︡ B.M. Kustodieva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e9%2F00%2F3e%2Fe9003e8405d746a09ffd84369cd4c9f4%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/c8c1dea3-8c05-44c4-a651-c49a812d36e6/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bumaga i nozhnit︠s︡y / L. I︠U︡din ; V. Ermolaeva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/27%2F37%2F3d%2F27373def74d5441499c36b390ed1a9d3%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/28840346-6851-423f-8c41-93a614cabdab/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zolotoĭ khvost / O. Gurʹi︠a︡n ; gravi︠u︡ry P. Staronosova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/59%2F49%2Fa6%2F5949a6d30a7b4db1bf11ff7953fd7803%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/b50d2500-8e4f-4e47-9a5e-16ae0dbdeba4/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Otkuda posuda? / N.G. Smirnov, Galina Chichagova, Olʹga Chichagova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/2a%2Fce%2F25%2F2ace255057b84f4d913a4752abfece38%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/4a8f9710-f67e-4baa-bd3f-f09d96ed8fd2/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vi︠a︡tskai︠a︡ glini︠a︡nnai︠a︡ igrushka / A. Den'shin."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/3c%2Fb2%2F0d%2F3cb20d7e27694e36b6657071ad338039%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/46a808ac-c069-4a49-90e3-ac7fcc97c0c3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pesenka novogo parovoza / Li︠u︡si Sprėg Mitchel' ; perevod s angliĭskogo V. Fedi︠a︡evskoĭ ; risunki V. Golit︠s︡yna."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/4a%2Fa7%2Ffd%2F4aa7fd793649482aad95796e6e1babaa%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/0d574bde-5554-45a5-a3de-fad30a2733e3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ali-Baba ili sorok razboĭnikov."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/7a%2F14%2F2d%2F7a142db07a5348139698e9a309fb20d5%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/876bc4e4-6fd4-4cf1-b315-450645c68370/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Okti︠a︡bri︠a︡tskai︠a︡ zvezdochka / A. Barto ; kartinki T. Shevchenko i I︠U︡ry Ti︠u︡tcheva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/3c%2F3c%2F92%2F3c3c9289a83846fabdeff5667018bb77%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/f4e94c4f-5f1e-4c81-a1f3-7d2646f22a3d/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ezdim, plavaem, letaem / stikhi S. Pogorelovskogo ; risunki V. Tambi i N. Petrovoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/8a%2F33%2Fb6%2F8a33b6ddaa8c4966923ee8e2a6fa3ff0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/6f99caf4-6356-4aff-8ab0-ffbb2c593ed4/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bratishki / A. Barto, [G. Echeistov ; redaktor E. Obolenskai︠a︡ ; khud. redaktor P. Suvorov; tekhnich. redaktor F. Markelov]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/cd%2F30%2Ff1%2Fcd30f12467654a4fbdcb7352fbefd85b%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/d9671b76-c2be-40de-9414-abb07fc316c6/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "T︠S︡vetnye kameshki : stikhi, razskazy i skazki dli︠a︡ mali︠u︡tok / I. Konoplin i Kal'ma ; illiustriroval Vl. Belkin."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/a8%2Fe0%2F98%2Fa8e09885e4e143e2b94701b1ebce84be%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/9f8fc1cb-975f-4473-a20c-a64fdff977ac/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kak otdykhal Lenin : sbornik / foto-illi︠u︡strat︠s︡ii i oblozhka V. Elkina."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/a2%2F47%2Fe0%2Fa247e0d8d3c749cea59775435121cd74%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/856149ce-31d8-417e-9432-caa621874037/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "V oblakakh / Deĭneka."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/10%2F43%2F30%2F1043305847494c8eafe23980bb61fcc9%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/2f884fe7-50c3-4917-82ad-ff03345ec2be/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Podvig pionera Mochina / A. Vvedenskiĭ ; risunki V. Ermolaevoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/bd%2Fa6%2Fe5%2Fbda6e51b5a514f8a8489faa3f131f6bf%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/6545217e-1879-4702-a531-65e93cd4d3b6/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Posylka iz Moskvy / I︠U︡. I︠A︡kovlev."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ac%2Fbc%2Fc7%2Facbcc79305f64fa4b33b9843daf5dab0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/bcce365a-c471-4be9-a357-01cf491babf6/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Krasnoarmeet︠s︡ Vani︠u︡shka [mock up]"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e1%2Fe3%2Fe8%2Fe1e3e88583aa45c68286c7a5dc730659%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8a48a91e-cf84-4537-bf12-9204a050b87e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bumazhnyĭ zmeĭ / Natalʹi︠a︡ Zabila ; risunki I. Daĭt︠s︡ ; [redaktor O. Ivanenko; tekh. rukov. A. Rozenberg]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/46%2F89%2Faf%2F4689af288e3047fa80b0f36280022ece%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8230a79b-a94a-4df7-b330-f4f428866d1e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Topor / G. Krugov ; risunki A. Pakhomova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/27%2F4a%2F32%2F274a321f87054722ae7064f33f604c64%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/fe52b747-a58e-4c1b-9738-a2415e02293f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Khrustalʹnai︠a︡ vaza : povest / F. Kamanin ; risunki K. Kuznet︠s︡ova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/63%2Faf%2F73%2F63af735ded6a420db3ec8203f628b1d2%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/35dc9062-76ad-4b9a-88c3-8c8da53977d9/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Spor mezhdu domami / N. Agnivt︠s︡ev ; [risunki N.N. Kuprei︠a︡nova]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/31%2F1c%2F04%2F311c04bb113d460d9ce228745133abbf%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/2a852b76-b786-46f7-9bba-2a6407b51f83/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Svinopas : skazka Andersena / risunki M. Dobuzhinskogo."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/3c%2F56%2Fd7%2F3c56d71b8e9a4a779a1496d30d833e0f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/15adf925-0ac1-4e7f-9217-72bc5563ca52/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Millionnyĭ Lenin / Lev Zilov ; kartinki B. Pokrovskogo."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e9%2Ffd%2F66%2Fe9fd6606fbe74ad3a0d05dddb6684856%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/84cf7c64-6546-4f66-83e5-c9492c68e5fb/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mali︠a︡r Sidorka / M. Andreev ; risunki M. Pashkevich."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/15%2F69%2F8c%2F15698c6dc4504e26ad9d43123047a7eb%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/d71f9c97-22be-4556-b636-43fcb746d8cf/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zaĭchata / Elizabeta Polonskai︠a︡ ; kartinki A.A. Radakova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/a1%2F9d%2Fe7%2Fa19de7a2e1c14f269416b9487d07c2b4%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8979b55f-75c2-476e-b41f-aea4501ed038/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chashka chai︠a︡ / N. Agnivt︠s︡ev ; risunki V. Tvardovskogo."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/0b%2Fd2%2Fb3%2F0bd2b3836c834c5cb9c6253e3c216c63%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/44b76359-981b-490c-956b-89c4bed47f3f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bori︠a︡ v ambulatoriĭ / S. Zak ; risunki Vl. Konashevicha."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/47%2Fa2%2F71%2F47a271cd9c6e4e2f9b362d8ebcccb55a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/bf87ac4a-b012-442d-a80e-a421e690972d/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Stalʹnye koni / A. Avgustyni︠u︡k ; risunki V. Tambi i E. Voĭshvillo."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/d8%2F1f%2F39%2Fd81f398d36c342788e83309bcbe50d4e%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8511988b-81bf-4b83-b3e3-e417516ccd26/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kot v sapogakh : skazka / risunki V. Konashevicha."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/eb%2Ff2%2F32%2Febf2329bfb5f4b8ab4ad7bed622cedaa%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/dfe150e3-06a8-4d68-8749-b1d3a3364e36/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Dve pravdy / P. Zamoĭskiĭ ; [risunki i oblozhka P. Staronosova]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/cc%2Fff%2F14%2Fccff144c747445e39f682621b12d868e%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/33b0996c-803d-482c-9a7e-c4ab563d61cf/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Dli︠a︡ chego krasnai︠a︡ armii︠a︡ / N.G. Smirnov, Galina i Ol'ga Chichagovy."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/78%2Fc3%2Fd6%2F78c3d6eec2f24e27b91dbb39817d3812%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/7dbd13e7-3a95-4e01-bc92-f0bec50eca5e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Starye kukly / Demʹi︠a︡n Bednyĭ ; Kukryniksy."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/a4%2F7e%2Feb%2Fa47eebbca5c8453895d21f776537b3c3%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/595ab85c-f615-46da-86d2-d96e2c5101b7/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Obstrel barrikady / V. Hugo ; [khudozhnik A. Eliseevnin]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/1b%2Fb6%2Fc0%2F1bb6c062a2754f81aa1a3421138b4210%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/79f82c2a-1acb-46b5-884b-ad6ab03af906/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zheludi i spichki / Ė. Kondiaĭn."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/38%2F05%2F56%2F380556ee9dd64acda27845d6fb8d752c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/b6b5b0b0-bfd8-4654-a4ab-25e74aa8e6e2/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Basni I. A. Krylova / ris. M.N. I︠a︡kovleva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/10%2F9d%2F8a%2F109d8ae5ae3e406682e927bb8c9f5c03%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a7d191cf-f0cb-499b-ba15-92d0bec0f299/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zelenai︠a︡ shkola / I︠A︡. Brylʹ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ee%2F43%2F7f%2Fee437f09de7f4039b29bfcf9e92cb2d7%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/641f9510-9614-418d-b1ce-c3b766837589/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kino-zagadki / T. Shishmareva ; [tekst E. Shvart︠s︡]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/36%2F55%2F00%2F3655007df3104e3c9d3f59ed6e914091%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/f69b0343-d741-47d8-81a9-f1cd8708ef71/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Drawing for p. 4 of Samuil Marshak's Velikan."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/84%2Fea%2F39%2F84ea39ea28f94136b3d2e896fa761f79%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/5d9f3148-3298-4367-ada5-580545512a7c/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Nash smotr / kartinki P. Freĭberg ; [redaktor E. Shavad]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/37%2F47%2Fb0%2F3747b0d0cb1e4da79ea40250d61cba14%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/07f829ed-4072-4a08-9c9a-ba71db3dc96e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vorobeĭ i Bylinka ; Kozli︠a︡tki i Volk / Valeriĭ Karrik."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e7%2Fa0%2Fe3%2Fe7a0e3d303ce4a0eb244ebb908a727de%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/05a22203-c678-4d55-8948-06ec1e8b4dc6/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Medvedʹ i starikovy docheri / Valeriĭ Karrik."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e9%2F33%2F4b%2Fe9334b1cd9bd4fb9bd8f79ac6a6adee7%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/31577f94-9388-4bf1-b268-97c92d2b9262/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "T︠S︡eppelin / L. Kassilʹ ; [F. Kondratov]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/6e%2F55%2F33%2F6e5533f7d9424442b8b9d7c165fba887%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/895bfb23-fa98-4806-a321-68c3ab3cb3e0/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Azbuka / v risunkakh Vl. Konashevicha."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e7%2F5a%2F6a%2Fe75a6aff144b4cbfa3de45c8c8148161%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ea02ee7b-679c-49d2-b748-2354a57161d7/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kak rubanok sdelal rubanok : skazka / S. Marshak ; V. Lebedev."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/1f%2Fd9%2F3f%2F1fd93f186eae4899aaef29e97fea075f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/50ecb489-f514-462e-9fe6-113bbdbb6e08/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Gore-kucher / risunki V. Ermolaevoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/dc%2F96%2F58%2Fdc965820f4cc4f21a95a0e25668721aa%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/18090813-4d33-491b-b60d-7df14d332ec5/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Roi︠a︡lʹ v detskoĭ / Artur Lurʹe ; risunki P.V. Mituricha."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/dc%2F1c%2Fd9%2Fdc1cd9fda98d4cda89cb470db80faa7c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/fe308fc2-7960-4b35-b7b9-7ce6231a0f02/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Igrushki [postcards] / Alexandr Benois."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/cc%2F7a%2F20%2Fcc7a203a85c04a639291b3e243d8dfe3%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/337f34b7-8df4-42c6-903b-d19cb4a1f927/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Shestʹ masok / V. Ermolaeva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ed%2F5c%2F78%2Fed5c780bb6e44a809d4df6bd6aa99126%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8d68d38b-6764-40ad-95f3-a54332d3c8ed/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Murkina Kniga / K. Chukovskiĭ ; kartinki Vl. Konashevicha."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/da%2F74%2Fa6%2Fda74a65f728b4b2ba9d526a27cf6da46%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/2a4cc089-cdba-415b-91a4-d60504fb17f4/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Morozko / Valeriĭ Karrik."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/bf%2F8d%2F91%2Fbf8d9156ce5f4ff9bb0fbf61dd77e28a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8f2f9794-9c26-47d1-8184-6945593321dd/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zhelezo / M. Froman ; risunki M. Fogt."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ec%2F10%2Fc2%2Fec10c2b2debc41eaa03a3afbd02a917b%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/5b61d116-4c73-4552-8f13-7f01a4682004/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Prikli︠u︡chenii︠a︡ Petukhova Grishki ili kak delai︠u︡tsi︠a︡ knizhki / N. Shestakov ; risunki V. Vasil'eva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/38%2Fff%2F45%2F38ff4553fa574185ac583cf4ac1bd22f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/fff6bcde-eb0d-45cf-97bf-7e7b3ac09986/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "O lenivom Van'ke i Ego shchenke / V. Ėrlikh ; kartinki I. Efimova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/54%2Fa9%2Fbb%2F54a9bb91a70e4cf2812106df0ff9d264%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/7c502e90-55ec-4e75-a4f7-f50de07b56fd/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Maĭ i Okti︠a︡brina / tekst L'va Zilova ; risunki Vl. Orlova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/a6%2F8c%2F5c%2Fa68c5c0dc8b441a68e2da07b6ad2efc7%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/396a8821-9c85-4940-b716-db0885a49126/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Galu i mʹgatu : negriti︠a︡nskie rebi︠a︡ta / O. Gurʹi︠a︡n; [risunki D. Shterenberga]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/34%2F31%2F73%2F3431738c32ba4e67b376076ff6e5a727%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/6f79df04-0735-44eb-9ff9-8d78deea48b3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pesni︠a︡ o Tane : poėma / Nik. Vladimirskiĭ ; [S. Senʹkin]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/a3%2F7a%2F21%2Fa37a2116af294724b86c6ffdee7a7829%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/780da117-5bbf-4921-ba53-4c8601ef1057/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sailor and a boy with a red wedge"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ca%2F2e%2F40%2Fca2e4030dd884d0b9c6ef35cf50ed208%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ead32356-86ce-4c98-aef9-fddfb105f63e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bor'ba i trud : novye stikhi / sostavila A. Gelina."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f2%2F76%2F0d%2Ff2760dd212ac422ba27c84aaeb06157a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/9ffe9b6b-0d6a-44ef-b50b-2e8728d5a88f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Krasin vo lʹdakh / Ėm. Mindlin ; [oblozhka A. Shcherbakova ; montazh i akt︠s︡entirovka teksta L. Suvorova]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/03%2F5c%2F8f%2F035c8f94e7b54b2b8644b9a324142714%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/5442cfde-baf9-4490-a4d9-3a44f7910d64/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Krivulina / Dm. Chetverikov, risunki A. Pakhomova"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/fa%2Fba%2Fe5%2Ffabae5a9b8fd439ba1b1497b6e5d61e1%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/59771f0c-b3f4-4d25-af5a-082a4cceda2b/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Dzhimmi Dzhoĭ v gosti k pioneram : [skazka] / Lidii︠a︡ Lesnai︠a︡ ; risunki B. Kustodieva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/60%2Fd1%2F37%2F60d13797519248bf9d139c98ceb12bbf%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/40d80929-c797-4035-ac6b-43f1f97be36d/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Voĭna koroleĭ : iz serii \"Petrushka\", Kukolʹnyĭ teatr / [tekst I︠U︡.L. Obolenskoĭ, ris. khudozh. I︠U︡.L. Obolenskoĭ i K.V. Kandaurova ; faksimile ris. i tekst isp. khud. V. Nessler]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/de%2F66%2F1c%2Fde661c4251a34244aabe12a34a83ede8%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/d1d539d5-ed36-4223-9d20-6d0956343e39/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Aėrosani / R. Karmen ; foto v tekste i na oblozhke avtora."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/96%2Fe0%2F11%2F96e0119477814278bd7958b8e278165c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8ece7e39-4995-431e-bf1b-ac8228bb7510/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Igrushki / stikhi A. Olsufʹevoĭ ; kartinki L. Popovoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ac%2Ff5%2F2d%2Facf52d50424d4f4197d8cb9e74112f28%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/cda00ada-6ee7-4d95-b096-036ebe711dce/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Veselii teatr / risunki A. Poret."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/58%2F8b%2F32%2F588b3220c03d48eeadaa650f51f1e4ca%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/57e9eec1-45d8-4677-9f82-72cc8b910db2/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Magnit / V. Ezhova ; risunki 2-oĭ Masterskoĭ Izogiza."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/00%2Fa3%2Fb2%2F00a3b2ec39fc444c8488cfc9fbee52c3%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ac1e9a2e-3ceb-4d93-8cdb-7475ace304fc/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vorona-Karabuta : baĭka Lʹva Zilova / Lev Zilov ; kartinki Konstantina Rotova ; gravirovany na dereve Andreevym."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/36%2F89%2F6e%2F36896e0cfc434b059eb00deeb424aa5c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/c90e5992-8a3d-4935-9a75-87ff872f7fca/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pesni︠a︡ o mame / Ė. Ėmden ; risunki D.Shterenberga ; [slova Ė. Ėmden; muz. N. Frenkelʹ]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/90%2Ffe%2F15%2F90fe156150344ca083234567e173cb10%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a1955261-45de-4917-a8f5-459aa2f6e4cf/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Revoli︠u︡t︠s︡ii︠a︡ : rasskazy / A. Neverov ; resunki A. Pakhomova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/d3%2F8a%2Fe0%2Fd38ae03ddf274966b62355598aeea580%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/f4a2a0b6-260f-4b03-bf40-d5f47b94e0fc/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sovremennai︠a︡ evreĭskai︠a︡ grafika / B. Aronson."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/4c%2F6f%2F95%2F4c6f954f7cb94ad3ace4b62173c06160%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/d4363d23-19bc-42b5-bd14-b247d23f56b9/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Master Pepka -- delaĭ krenko / N. Ivanova ; [risunki khudozhnika M. Khrapkovskogo]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/87%2F2a%2F7e%2F872a7e4821214fd785e59d20d6f04332%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/c04de4dc-7343-4adc-bc43-3196174cfb4d/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chadra Gi︠u︡lʹzarchi / N. Sher ; [risunki V. Ivanovoĭ]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ee%2Ff6%2Ff5%2Feef6f53502cf411681984960aa059bbf%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/7e6a81fa-7788-4c91-9333-34409c2c1f19/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Strok dvesti pro knizhkiny bolesti / N. Shestakov ; [risunki D. Moshchevitina]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/bc%2F87%2F7b%2Fbc877b78cd0646acba770543a37ceab5%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/45c25d0f-b9ef-4f5c-83e8-2bb4fe008799/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vi︠a︡tskai︠a︡ glini︠a︡nnai︠a︡ igrushka v risunkakh : raskraska risunkov ruchnai︠a︡, i︠a︡ichnymi kraskami, tochno skopirovannymi s podlinnikov / Al. Denʹshin."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/92%2Fc3%2F47%2F92c3475c40804df2a22e88531209443c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/c6835ee9-f872-4b36-b7f3-7c8db380611c/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Malenʹkai︠a︡ Kėtʹ : kak zhivut voguly / N. Sher ; risunki A. Plastova ; oblozhka L. Feĭnberga."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/0c%2F49%2Fd8%2F0c49d8d44fec4c6eab3aa03279b19a78%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a5c9c88c-e8ba-44d3-bbb6-59c04cf076d9/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mnogotrudnai︠a︡, polnai︠a︡ nevzgod i opasnosteĭ zhiznʹ Ivana Semënova, vtoroklassnika i vtorogodnika / A. Davydychev"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e9%2F8e%2F6e%2Fe98e6ea9538b4f9a90d4ae962508ee0b%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/52158867-1247-4055-b1bd-1a0bdd720d99/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Russkim di︠e︡ti︠a︡m / [risoval A. Shervashidze ; redaktirovala N. I. Butkovskai︠a︡]"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e0%2Fad%2F14%2Fe0ad14a2ecf44cc2826a8d25935fe252%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/aabe2b2a-54d2-41be-9f89-ea478221d779/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "My vas zhdem, tovarishch ptit︠s︡a, otchego vam ne letitsi︠a︡? / Mai︠a︡kovskiĭ ; risunki T. Mavrinoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/69%2Fab%2F7c%2F69ab7cfb73364a6a9dc3759fa5e4d931%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/141b22c6-123b-4347-b392-797cb792ba02/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vanin detskiĭ sad : pʹeska dli︠a︡ deteĭ / Serg. Rozanov."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/46%2Fc1%2F22%2F46c122275dd04f1b98071ffcf7da04f1%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a6aba13a-b3e2-4249-9288-c2e93267d35a/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "На выставке / Ц. Коновалова и О. Фадеева ; [рисунки Г. Горощенко].",
+          "Na vystavke / T︠S︡. Konovalova i O. Fadeeva ; [risunki G. Goroshchenko]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/9e%2F2f%2F69%2F9e2f69fb83c248c89aefbae9365b97b6%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/6a9439b3-d60e-444f-b1a2-76ea2a822ab3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Khochu chitatʹ! : novyĭ nagli︠a︡dnyĭ russkiĭ bukvarʹ / E. Akinfieva ; khudozhnika A. Shtirena."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/87%2Ffd%2F63%2F87fd63a129c944af8c8530f6db6451d0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/7d172be4-756a-4fab-aee3-4db4b7872679/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pobediteli / rasskaz P. Andor ; risunki A. Komarova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/b6%2F39%2F3c%2Fb6393cfed120432ba2a5b96ab35a01f0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/528fb6fc-fd6c-400f-b1f1-31c8d99b1bdd/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chudaki / Boris Zhitkov ; oblozhka A. Shcherbakova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/1e%2F2a%2Fbc%2F1e2abca217814d249dfc8d159b68bdba%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/0e8be626-be40-4004-8245-02ced4d98b02/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Dva brata / M. Andreev ; risunki V. Tvardovskogo."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/74%2F03%2Fe7%2F7403e774cacc4394b7fb7dee57f3898f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/e59c5f67-930c-4145-98df-5561767d69e3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Solomennai︠a︡ kukla / Ė. Kondiaĭn."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/b8%2F0e%2F27%2Fb80e27f3c0374f618464b1c717b5d56f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/851d890d-b0c5-4f50-bb64-23775c590431/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Ėkskavatory i krany / [tekst A. Trofimovoĭ ; ris. A. Mogilevskogo]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/79%2Fcd%2F8e%2F79cd8e069e074a38aa04ec1e72d159de%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ca2cb0b3-3127-4ecb-8d57-2d4a1aaa1472/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pered snom / A. Radchenko ; risunki N. Ushakovoĭ"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/35%2F5e%2Fc8%2F355ec868c47347e2821075ec9259feb5%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/567ac7ea-6316-42c1-95cf-fb8de5b4dd1d/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Utrennie zori : pervai︠a︡ kniga dli︠a︡ chtenii︠a︡ v shkole i doma / V. Ananʹin."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/0d%2F09%2F24%2F0d092457d9a74c52b62bfa2c7cb87adb%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ce8293bd-e0f9-48c2-a964-9f08a1267428/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Myshinyĭ bunt : stikhi dli︠a︡ deteĭ / Ol. Tvista ; risunki L. Dubrovskogo."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e7%2F2c%2Ff9%2Fe72cf9de9c514d0faebee55322430c6e%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/289070b1-8705-406a-8927-f975c81b9824/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Puteshestvie v Batum / A. Vvedenskiĭ ; risunki T. Glebovoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ff%2F9b%2Fbf%2Fff9bbfa355f44da2a273238cc2e2b6cc%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/07a2b74f-1070-4940-bdb9-ec9d346ec16f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vesenniĭ marsh / Ė. Ėmden ; risunki V. Ivanovoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f5%2F53%2F1c%2Ff5531ca130f54e3aa16e1b7580fe37b1%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/3f8bac0f-03f4-4074-be36-cd8c0a67885f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pro ėtu knigu / Boris Z︠H︡itkov ; risunki i chertez︠h︡i M. T︠S︡ekhanovskogo."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e2%2Ff9%2Fad%2Fe2f9ad947d1141108da89f86d251e49d%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/33fd77e1-2724-4a1f-a51d-b4ffddaaff95/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Prikli︠u︡chenii︠a︡ zaĭt︠s︡a / tekst Sergei︠a︡ Mikhalkova ; risunki K. Rotova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f8%2F05%2Fe7%2Ff805e74230534a5f9bb1919104dbada4%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/4990fb5e-94d2-4bfc-8a04-3b3dec8e18d8/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chto ni stranit︠s︡a to slon to lʹvit︠s︡a / V. Mai︠a︡kovskiĭ ; risunki K. Zddnevich."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/3d%2Fa0%2F0c%2F3da00c095b68408a930ddabcbf712b48%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/b7594f06-95e7-4901-aa87-5c764fad96ca/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Khlopok / tekst B. Shatilova ; kartinki Ap. Manuilova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/9e%2F0e%2Ff5%2F9e0ef56158484bcbacd3418e34572686%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/855037eb-f9d7-4133-a13d-68eacef8c6ff/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vani︠a︡ i Masha : fantasticheskai︠a︡ skazka dli︠a︡ di︠e︡teĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/29%2F41%2Fd3%2F2941d3c370984b61b86e1cbe1e76396f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/482681d2-4846-40e4-909f-e9dbecb25204/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Dva druga / B. Shatilov ; graviury na dereve P.I︠A︡. Pavlinova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ef%2F82%2Fd6%2Fef82d6718ce2473c83b0570eacb8d665%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/003abfae-b975-4156-aa79-a7a763756470/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "‏תמר׳ל :‏ ‏א באבא־מעשה׳לה /‏ ‏דערצײלט, משה בראדערזאן ; געצײכנעט, יוסף טשײקאװ.",
+          "Temerl : a bobe-mayśeleh / dertseylṭ Mosheh Broderzon ; getseykhneṭ, Yosef Ṭshayḳoṿ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/fb%2F8c%2Ff2%2Ffb8cf2ecc5c345d587e588ef3e706847%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/c65235f1-faef-4500-9164-db1d2faa1ebc/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "My voennye / [risunki] V. Lebedev ; S. Marshaka."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e5%2F90%2Ff1%2Fe590f116ade84928be2c5d4d836fa4cd%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/938868c0-7139-4434-881a-21a852215c9f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Prikli︠u︡chenii︠a︡ stola i stula / nebylit︠s︡a po Ėdvardu Liru ; tekst S. Marshaka ; ris. B. Kustodieva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/c4%2Fee%2Fe0%2Fc4eee0f794b44147a88b63991fe6e1bb%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a0c96c63-73a1-457b-acea-9d5bccb47333/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "T︠S︡irk / tekst V. Karinskogo ; risunki Konst. Zotova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/db%2F3e%2Fd0%2Fdb3ed0489d0445a28faf7b9b9a3af4a4%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/97b951bb-a2fc-46a4-9186-b9dd1474f8e6/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mal'chik s pal'chik / F. Bardash, illustrated by V. Tarasova"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/05%2Fb7%2F3a%2F05b73a0e67f248b1b33fcaeaebb2a0a0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/2a8d54ef-80b5-4e2c-aad1-f5ee614d58f9/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kitaĭ / [risunki M. Sini︠a︡kovoĭ]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/15%2F76%2F38%2F15763881d4d44254a86f57e1319ea846%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a2716b82-ed9c-47c7-ad3f-2907ec6093a1/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Elka : Knizhka dli︠a︡ malenʹkikh Deteĭ / sostavili Aleksandr Benua i K. Chukovskiĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/60%2F84%2F25%2F6084259192a3442abee8ed9388bb63fb%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/9bdc212b-04cc-423e-805c-c41480d1da4e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Komsomolii︠a︡ : stranit︠s︡y ėpopei / A. Bezymenskiĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/84%2Fc1%2F63%2F84c1631961934b3b977f1a626a87d64c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/9c942afd-8b2a-4a28-a7a1-7f03ba43bb69/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "L'dina cholodina / Risunki A. Dovgal'"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/07%2F49%2Fe8%2F0749e89fdced44fc834194f05aca478d%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8d319319-f239-4c3b-baa3-78a02a63a426/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Tri meshka slov / [khudozhnik L. Eliseevnina]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/02%2F55%2Fcb%2F0255cb0a33bc41ddb8d506da8a864238%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/5c2580bb-1a12-4e64-9af6-3052dff00377/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Deti negrov / tekst A. Solodovnikova ; kartinki M. Ezuchevskogo i V. Vatagina."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/aa%2Fc1%2F45%2Faac145af2e0f419a98182bde3afbea75%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/6ad5585f-e305-4fb8-89f1-f9d109a0a2ad/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Shelk / Olʹga Trizna ; risunki Usto-Mumin."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/10%2Fcb%2F17%2F10cb174b22ee4d10ba6876571f32451b%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ea19e59a-84f4-4721-a787-df81d768fbd1/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vintik-Shpuntik / N. Agnivt︠s︡ev ; risunki V. Tvardovskogo."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/7d%2F8b%2F3b%2F7d8b3b96662047e0a25fcb679c984e3c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/b05b222f-becb-4a09-9fdf-ba2b1247f1f9/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "V shkolu: Stikhi / Natalii︠a︡ Nagorskai︠a︡."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ac%2F7b%2Fab%2Fac7babaf66da4421b1e9fa47d20ab07f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/9528bfa8-3cb5-4ab5-b661-3ac39ca360da/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Shalovlivyi︠a︡ ruchonki : chetvertai︠a︡ knizhechka dli︠a︡ mali︠u︡tok / sostavila M. Manina ; risunki khud. S. Golʹdmana."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/1c%2F8b%2Fe2%2F1c8be25c7bc24a6283e4b5500e77f61d%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/9ccb38cc-c50f-48be-941d-5db12e87d58d/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Komsomolii︠a︡ stranit︠s︡y ėpopeĭ / A. Bezymenskiĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/81%2F62%2Fd5%2F8162d59e341545f398e68a5a73f6418c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/844ecb27-43a6-4888-b01b-68fde66b6fb3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sini︠a︡i︠a︡ tochka / I︠U︡. Vladimirov ; oblozhka i risunki Ė. Krimmera."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/36%2Fc0%2Fe8%2F36c0e8137c664947ae629beb280c0336%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/7abb1381-e6e5-4325-98d4-ec734bd098cf/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sami / Nik. Tikhonov ; [oblozhka i risunki isp. khudozhnikom E. Khigerom]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e6%2F9c%2F9a%2Fe69c9a9afcef4de1ae922c374e70d91d%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/9197cdde-466c-49e3-95c8-9cbc4915b5d5/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mashiny-zagadki, igrushki-razgadki / M. Ilʹin ; obloshka i risunki M. Razulevicha."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/0c%2F91%2F14%2F0c91148f02cb4c74a774c9461c0f9ae5%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/6ff97fd6-1b9e-4884-9e0f-fa273cc7f0bf/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kak rubashka v pole vyrosla / K. Ushinskiĭ ; [risunki M. Sini︠a︡kovoĭ]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/6c%2F65%2F1e%2F6c651e5eda1f47b787e37921f29f62ee%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/d25eba54-731e-46b9-9568-098299e5e099/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "O Tom, kak Priekhal Shokolad v Mosselʹprom / E. Tarakhovskai︠a︡ ; ris. I︠U︡. Ganf."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/6f%2Fc0%2Fb4%2F6fc0b45120a34814816c64d5a24fd556%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/e2ca21c5-0ba7-4748-8777-2749460dce69/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Karuseli / tekst V. Karinskogo ; risunki Konst. Zotova"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/83%2F6f%2Fe3%2F836fe3d56f814b87b0a34b70c324b227%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/93b8a09d-5cb4-402b-b545-8ef12f61527a/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Samodelʹnye igrushki / A. Gromov."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f9%2Fb3%2F1f%2Ff9b31f7bf4844fbfb98f054946eab15f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/207b6507-be63-410c-8e78-75cdfbb7e8bb/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kak rubashka v pole vyrosla / K.D. Ushinskogo ; risunki A.E. Kulikova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/cc%2F03%2F2e%2Fcc032e4f4c154c5a8f43eb42f4bfaf43%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/af457e26-2050-4a1e-909e-8c903aa7ed8c/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kak Primus zakhotel Fordom sdelatʹsi︠a︡ / mashinnai︠a︡ skazochka N. Agnivt︠s︡eva ; kartinki K. Eliseeva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/8e%2Fea%2Fa6%2F8eeaa634e049432f8ed7cb359af83abd%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/904d3bb5-af5e-4426-b355-b1d016df865c/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Porosenok volkodav / L. Ostrumov ; [risunki M. Milashevskogo]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/65%2Ffe%2Fcd%2F65fecd0411a14e38ac94866ddafe7667%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/b3236762-7326-4d0e-9586-4f68efda57d2/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zheleznai︠a︡ doroga / A.I. Vvedenskiĭ ; risunki A. Poret."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/5a%2F18%2F09%2F5a1809dbd68f44b89086397b77f02dce%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a6352241-7695-49b4-8c2a-8e67d2393855/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Dikovinki / A. Barko ; risunki B. Pokrovskogo."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/21%2Fed%2F78%2F21ed789307fc4c219c003d393496ee88%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/844b65b0-e879-43c7-a6c0-73524e73c6b4/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chto iz chego / N. G. Smirnov, Galina Chichagova, Olʹga Chichagova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/4e%2Fa3%2F7e%2F4ea37e439e084586b6560664230ee5fc%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/8eaf864e-5dfc-40b8-9be1-7be7aa00fe7a/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Povestʹ o ryzhem Motėle, gospodine inspektore, Ravvine Issaĭe i Komissare Blokh / Iosif Utkin ; [pereplet i risunki khdozhnika M. Gorshmana]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/dd%2F84%2F07%2Fdd840727b71a4bc3bf199b1fab1f198a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a5cab561-5593-457a-8df3-3ad836aa8c73/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zlai︠a︡ machekha / [khudozhnik L. Eliseevnina]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/45%2Fe7%2Ff3%2F45e7f37fd74040258c29b5dfe6895f2a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/918a6d26-dbaa-4ebf-bce2-5866f724e3bd/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zolotai︠a︡ ryba / [khudozhnik L. Eliseevnina]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/14%2Fdd%2F34%2F14dd34ea28ed4fc49d18a35c2f0b2f52%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a08d538a-15fe-4693-984c-a45a2ca5a975/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Balali︠a︡r / Usto-Mumin ; [tekst O. Trizna]"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/22%2F2a%2F73%2F222a730aea2148b393fa83e4fc3381a4%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ea3a1831-79ca-4c81-9bd6-0493d15762dd/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Voi︠e︡nni khytroshchi / E. Burche ; [mali︠u︡nki Dimitrievskogo ; redaktor V. Synenko ; khud. red. I. Daĭt︠s︡ ; tekh. kor. S. Shenker]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/f0%2F05%2Fbe%2Ff005bed0e1654466be3b5c655d2fad26%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/96fbb35a-f361-464c-b551-ae221ac61ac8/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Puteshestvie Charli / N.G. Smirnov, Galina Chichagova, Olʹga Chichagova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/20%2Fa8%2Ff7%2F20a8f766be334e81bd5552ef5320efc3%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ebc2520e-2368-4ac3-9ebc-da6c121192e3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "S kakikh por dveri v fanzakh reshetchatye / [khudozhnik L. Eliseevnina]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/47%2F5b%2F46%2F475b46eb832f412faa0b3a685f55d169%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/155c6559-89ae-43aa-b1c1-480b3da636c3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Topotun i knizhka / Ilʹi︠a︡ Ionov ; risoval M. T︠S︡ekhanovskiĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/7d%2F96%2F17%2F7d9617d9de0948b1975a7b044e3a341e%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/9a01d0c6-a377-4183-8a87-7ca8722e8f31/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Neboskreb / Liusi Sprėg Mitchel ; risunki khudozhnika K. Vi︠a︡lova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e5%2F31%2F4e%2Fe5314e0847254dc1baf59549a63ff162%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/468b42fd-c0d5-4f75-a630-d3a3502141b5/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Okti︠a︡brenok postrelenok / stishki Nikolaia Agnivtseva ; kartinki Ivana Maliutina."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/09%2F59%2F5f%2F09595fd819264fea85a47854cfcab7e7%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ca06276b-cac7-4e1a-b7ff-24a609f975ae/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Bumaga / N. Dirsh ; ris. N. Popova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/fe%2Fd5%2F08%2Ffed50875adff4fc9bf5e38ffa300ef9a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/2df74e0c-be2c-46de-932e-e35d820396cc/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Peti︠a︡sh / V. Gornyĭ ; kud. Klut︠s︡is."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/0f%2F2a%2Fbd%2F0f2abddfb9ff4edf89af693ef715cd96%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/5ccb6e17-f140-456c-8f77-cba0cfa66603/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Svinka - dlinnai︠a︡ shchetinka i volchishche - seryĭ khvostishche. Zagadki. Lisa, medvedʹ i zai︠a︡ts / illi︠u︡strat︠s︡ii N. Lemana."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/60%2F6b%2F5a%2F606b5a64cfeb4aa09f0e29f581ef18f2%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/c28300dc-6e66-4cf4-85b0-05724a3c9c3b/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Soloveĭ : skazka / Andersen."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/b9%2F25%2Fc6%2Fb925c63851ed4cf6a821f91580b39c44%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/676af98e-227d-4b1b-87aa-541e653d08e1/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chudesnai︠a︡ i︠a︡bloni︠a︡ / [khudozhnik L. Eliseevnina]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/3f%2Fd9%2Fd8%2F3fd9d80f275847dd82024279a6e885a6%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a84c970e-12d1-45d6-b314-9ef426903c62/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Igry so svetom i tsvetom / E. Sinit︠s︡yna,"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/42%2Fcf%2Fb9%2F42cfb9460ccf40218a4c3b2093c643d4%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/0c58e073-7f10-4e3e-a2a3-4a3154caafcf/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Marsh Molodykh / Tatʹi︠a︡na Tėss ; fotomontazh S. Senʹkina ; [redaktor M. Gershenzon ; tekhredaktor M. Kisilevich]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/84%2Fc4%2F7c%2F84c47c19055b4441a854958e692221c1%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/78a321b3-a963-4a9b-9c2b-965c4b3c7708/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zabavy / tekst Kalʹmy."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/04%2F83%2Fb2%2F0483b201958444b1994458955b6d6804%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/091aa1fe-3c16-4e20-a163-2e28756b2dc8/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Poteshnyĭ zverinet︠s︡ / risunki B. Zenkevicha ; tekst Diėza."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/c8%2F8a%2Ffe%2Fc88afe0da45a43c88a5c0ebb819f023f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/c7eba1c6-73cf-4143-9b3c-6792f7ebd7cf/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kazhdoĭ mame i kazhdomu pape / E. Charushin ; [redaktor R. Zhukovskai︠a︡ ; tekh. redaktor I. Saulich]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/1b%2F28%2Fcc%2F1b28cc2f34234badb9eb9dede092f600%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/332e4426-0e1f-4a28-b38b-4327c87611ab/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "O tom, kak starushka chernila pokupala / Daniil Kharms ; risunki i oblozhka Ė. Krimmera."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/ed%2F96%2F82%2Fed968251e469458c81fe1a23255b8eb0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/2a445f07-394c-4b5b-80ad-92feff69d9c0/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "V stranu vechnykh lʹdov / N. Shpanov ; risunki V. Golit︠s︡yna."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/5f%2F6c%2F18%2F5f6c1827783543e98a47d4a6f36c9137%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/de6c5532-1807-4144-b492-004e7bdb2df9/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Devi︠a︡tyĭ smotr : devi︠a︡tyĭ Vsesoi︠u︡znyĭ sʺezd Leninskogo kommunisticheskogo soi︠u︡za molodezhi / kniga napisana i oformlena udarnoĭ brigadoĭ Detskogo sektora izdatelʹstva \"Molodai︠a︡ gvardii︠a︡.\""
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e7%2Fe0%2F5f%2Fe7e05f65ee9743c5b256aa0979bd2238%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/128d754f-fab3-4c79-960b-56a9bd356360/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Самаркандия : из путевых набросков 1921 г. / К.С. Петров-Водкин.",
+          "Samarkandii︠a︡ : iz putevykh nabroskov 1921 g. / K.S. Petrov-Vodkin."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/a0%2F34%2F56%2Fa03456cb4cd84123971d99745e3b22a1%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/f9922b18-d3a6-45d0-a127-3d997800b2f2/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Puteshestvie po elektrolampe / N. Bulatov, P. Lopatin ; foto i montazh khud. M. Makhalova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/28%2Fda%2Fd2%2F28dad2ef8fb5415b8e5ce211abe4adb8%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/b2ba18f7-17df-449d-af55-2fccf4dbbc88/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sitet︠s︡ / M. Il'in, E. Ėvenbakh."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/9c%2F9a%2F7c%2F9c9a7cf0ce064d3cb8f3693512e4161c%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/df08e19f-ff7b-4e40-b306-86005aefd770/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Derevushka na sosne / A. E. Ekimtsev"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/79%2F29%2Ff1%2F7929f19547a54f7ca6c2a128997e420d%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/cb85c9fe-abe5-480e-8266-a89ea9f0592a/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Stroĭka : odinnadt︠s︡atʹ pesenok / I︠A︡. Meksin ; kartinki K. Kuznet︠s︡ova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/10%2Fe0%2Fd7%2F10e0d7ccb3424fc58f68bd3381e7c0b2%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/3e264c6a-b399-4ea3-963c-f4cf23c91060/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Prikli︠u︡chenii︠a︡ Chuch-lo / [litografii i tekst V.V. Lebedeva]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/86%2Fc1%2F9c%2F86c19c6adc3e4bc68b9b1c59aa6bd7ba%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/3fdd9d68-890b-439a-a880-9ba01300068c/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Neobychaĭnai︠a︡ istorii︠a︡ ob izobretenii vozdushnogo shara o velikom uchenom mongolʹfʹe, o shelkovoĭ i︠u︡bke i gori︠a︡shcheĭ zharovne / Galina Vladychina ; risunki Boris Zemenkov."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/6d%2F05%2Fa9%2F6d05a963f29e4e58b7488bd2b762bb2a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/2db5e268-5df8-4404-876e-5807ac92015f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zaĭka-ubegaĭka / kartinki E. Rebikovoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/1e%2F06%2F90%2F1e06905dbaeb416db6479d1087b4524a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ecace8c7-f281-4728-adff-2ba4f1f27107/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Dvenadt︠s︡atʹ mesi︠a︡t︠s︡ev / [khudozhnik L. Eliseevnina]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/b2%2F91%2Ff9%2Fb291f937fa91449dbf2bbb51aad869ae%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/50fe5e99-92b6-486a-b77e-6f4a627e1f15/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kak delaetsi︠a︡ ėta kniga / [risunki khud. E. Afanasʹevoĭ]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/cc%2Fac%2Fda%2Fccacda29b63e4e81ac10a2626c9c4ecf%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/9a25c270-615b-4b5c-a248-9bf5214d25b9/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kak Senʹka Ezhik sdelal nozhik / Iv. Mukoseev ; kartinki V. Vasilʹeva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/77%2F98%2Fb8%2F7798b86d0fb645e0b857418dcb36e6ed%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/0db62057-544e-4670-b4c8-8a2a0373b4a0/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Koza i Baran (skazka) / Abdulla Tukaev ; perevod s tatarskogo P. Radimova ; illi︠u︡strat︠s︡ii i oblozhku risoval i rezal na linoleume I. Pleshchinskii."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/b7%2F7e%2F8b%2Fb77e8bb9fddd458fb5dafd4b4fcec390%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/534f44cb-294c-4064-b835-04f1c05bafe8/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Belai︠a︡ utochka : narodnai︠a︡ skazka / risunki Ė. Polenovoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/b0%2F46%2F3e%2Fb0463e5c65644e259ac06d5a135f6cf9%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/1a4a5e80-50fa-4fee-a0ba-600570e98769/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zagadki Marshaka / [risunki V. Ivanovoĭ]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/35%2F01%2F5e%2F35015e64bd2a4d078fec1f542a879a4f%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a17d34e8-bc00-49d3-8530-2eb8d1f22f04/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Povest' o ryzhem Motėle, gospodine inspektore, Ravvine Issaĭe i Komissare Blokh / Iosif Utkin ; [oblozhka i risunki K. Rotova]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/13%2F86%2Fd1%2F1386d16e064a4e1e8f20fe8b60a7e6e8%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/b76e43de-8039-4436-839a-8c23370048ca/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chto takoe druzhba / D. Bedzik ; [khudozhnik V. Noskov]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/43%2F65%2F56%2F4365566ab94743a0915a4b91367887e8%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/fcc6b10a-2cfc-4b11-9489-90ebed0fbe61/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mal'chik Naoborot / Gennadiĭ Mamlin, ; [red. N. Lagina; khudozhnik G. Alimov; khud. red. T. Mikhailova; tekh. red. E. Sokolova]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/a7%2Fd0%2Fe5%2Fa7d0e544ff854ec198c4519f28e6032a%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/f35e1ca2-1b2d-4717-84bb-831b9bf1eab6/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zagadki Marshaka / [risunki V.P. Akhmetʹeva]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/92%2F9d%2F58%2F929d58e27c244184ad6c46d1c2c03b50%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/876cd26f-6cf4-4b22-8ef8-43c3c1db9927/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Днепрострой / Николай Миславский ; обложка, монтаж и акцентировка В. Ланцетти.",
+          "Dneprostroĭ / Nikolaĭ Mislavskiĭ ; oblozhka, montazh i akt︠s︡entirovka V. Lant︠s︡etti."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/4e%2F28%2F03%2F4e2803f926d04a33849fa8aab066d484%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/74620463-00cc-4c8c-965d-1dbcbe502b20/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Tri zverolova / S. Marshak ; risunki Vl. Konashevicha."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/09%2Ffb%2F23%2F09fb236e7dcf4268b74fe7e96465bb75%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/42e17ba3-ddcd-454a-91de-96c9732f70ab/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Elektromonter / B. Uralʹskogo ; risunki A. Deĭneka."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/5a%2Ff3%2F58%2F5af35828c4794baab2bc4bed611c1544%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a2917ec4-671d-4213-997c-7ed810ceb159/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Azbuka / V. Lebedev."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/96%2F79%2F72%2F967972618947434898746ed4593572e9%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/f6cad560-e211-4f79-ba14-b3ae03a773be/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Na dalekom severe / M. Pavlova ; A. Komarova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e7%2F2e%2F97%2Fe72e973233b6494da57995160cdb1ae0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/92152ed7-602e-4f1d-8cf9-e8c73a1e7704/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Tvsi narkomy v tebi︠a︡ doma / stishki N. Agnivt︠s︡eva ; kartinki K. Eliseeva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/5e%2F77%2Fc4%2F5e77c4a170f54c2a839bc905b3d2f9b2%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/3c12b119-dce6-4783-90d0-86a664a16fb9/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chaĭ / O. Shteshenko ; risunki I. Kisili︠a︡."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/c7%2Fbc%2F3c%2Fc7bc3c240901402399bea9532f0ef1c2%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/9f138fb4-7501-4dad-a8d1-f1ff23b3648a/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zverushki: stikhi malenʹkim / Natan Vengerov."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/52%2F9f%2F58%2F529f58975764453d880837a8f0f5e745%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/c237fc8d-86b8-41d2-9741-7df613292b8e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Detskiĭ internat︠s︡ional / I︠U︡riĭ Gralit︠s︡a ; kartinki G. Echeistova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/8c%2F15%2F60%2F8c1560d973b645359a1920a356403449%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/fe48aae3-f1a7-454b-b454-96a122de66b5/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Samodelka skorospelka / risunki A. Fedulova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/09%2F32%2F96%2F093296eb02a14b93b5633f20796f80bf%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/ed0cdc57-ab1c-4a21-a507-1b213a8d9288/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Pesnʹ o dirizhabl' / N. Sakonskai︠a︡ ; [risunki V.P. Akhmetʹeva]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/66%2F31%2F82%2F663182d170fa492f849137d114b998c0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/7ebd68a5-5b6d-40e2-b588-3499d8ad0056/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "T︠s︡irk i ratusha / Lidii︠a︡ Varkovit︠s︡kai︠a︡ ; risunki i oblozhka T. Shishmarevoĭ i V. Vlasova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/cc%2F4f%2F36%2Fcc4f36e5b6cb48a1b2887381970f9acc%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/25848b7d-50fe-40f1-b95c-c4c9092e1fb6/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Chetyrnadt︠s︡atʹ risunkov ukrainskoĭ azbuki."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/8e%2Fe7%2F25%2F8ee725a47bd54b0eaf150e82e19ba216%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/32e1fd98-8370-4929-814a-23fa75f45b79/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "I︠U︡nyĭ politekhnik : zhilishche / N.D. Beli︠a︡nov i V.P. Kardashev."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/d2%2Fcd%2Fc8%2Fd2cdc86349a94444bc8a708f49ba24d0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/51c9890a-5003-44c0-8bfb-6f133e45d276/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Master-lomaster / S. Marshak ; risunki A. Pakhomova."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/c4%2F78%2Fb1%2Fc478b19ad4df4bb9a4241edb438cb475%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/3bddeec4-4069-43ae-a5c9-3083022ba33e/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Nagli︠a︡dnye uroki pisʹma : propisi, kartinki, zadachi, pravila. Knizhka 2-i︠a︡ - Pravopisanie / Vsevolod Flerov."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/96%2F57%2F42%2F965742419bc247839ccfa11c83b335f0%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/82b89674-0872-4291-a1ae-80dbbf9475c3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Gorodskai︠a︡ ulit︠s︡a / tekst L. Zilova ; kartinki A. Soborovoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/e7%2F13%2Fff%2Fe713ffad4c604ff1926f03134856aaa9%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/3b120664-233b-485f-b74c-27c5e64417a8/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zheleznai︠a︡ doroga / Viktor Shchepotev ; risunki Kozlovoĭ."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/66%2Fba%2Fb5%2F66bab5b822e64a49b3ed91317af042d3%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/398818c2-2eaa-40de-a5bc-cc825aef337d/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kolësa / S. Marshak ; ris. V. Tambi."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/dc%2Fdc%2F7b%2Fdcdc7b607ff847ac90dd653b59d49cd4%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/f4930df2-d7be-4997-87fd-ac429a23084a/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Samye bolʹshie / G. Fedorchenko [risunki I︠U︡ Pimenova]"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/50%2F5f%2F6b%2F505f6b0deab74dd1954926b30758356d%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/2bd4c375-190c-49cd-9c3a-370daa205d4f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Rasskaz o velikom plane / M. Ilʹin ; oblozhka, risunki i oformlenie M. Razulevicha."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/9f%2Ffe%2F2e%2F9ffe2ec10bfd4c268e39eec5c3139219%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/dc4fa1e0-29ad-423f-99ff-74160eff5b28/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Zaĭka : sbornik dli︠a︡ deteĭ mladshego vozrasta / sostavlennyĭ I︠A︡. P. Meksinym."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/d3%2F8e%2F82%2Fd38e822792d44122a4010055988a632b%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/cf4a52d4-0d7a-462b-8e94-f0d5228d7029/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Rasskazy dli︠a︡ deteĭ / D. Mur, V. Gi︠u︡go, Foks, Uĭda, D'Amichis."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/78%2F78%2F33%2F7878335a341b40ba8d7e7fec4aba48e9%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/fcbf2a73-3207-46cc-a23a-cb3046b86cbc/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Dochʹ Ti︠a︡fanaka / [khudozhnik L. Eliseevnina]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/40%2F8e%2F3d%2F408e3dfa70d2466f81725281adea59bb%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/0c13fce6-0a95-4771-bbe5-ba4436b03d63/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Skazka o Pete Tolstom rebenke i o sime, kotoryĭ tonkiĭ / Vladimir Mai︠a︡kovskiĭ ; [risunki N. Kuprei︠a︡nova]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/5e%2Fb0%2F9b%2F5eb09b3a9ed6495496d15209f99d7056%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/36edb6d2-a9f5-4bd4-b523-d0b35a04a2f3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Knizhka-kino-seans o tom, kak pioner Gans Stachechnyĭ Komitet spas / F. Kobrinet︠s︡ ; [oformlenie Is. Ėberili︠a︡]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/b9%2Ff1%2F98%2Fb9f1984e91b44dfb94a7f698b08ea613%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/4172aff7-dafc-4063-ad87-d86028a8d090/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kak chetvero zheleznodorozhnykh rebi︠a︡t sozdali pionerskiĭ otri︠a︡d / Boris Shikhman ; oblozhka i risunki khud. V.G. Bekhteeva."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/99%2Fb7%2F1c%2F99b71cc80c534506becd540e36fb2cd8%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/bd84be59-4540-43c9-a031-551c8c4f8d50/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "I︠u︡nostʹ, idi! / A. Gastev ; [risunki I. Shpinel', O. Deĭneko, A. Makeeva]."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/0a%2Fe9%2Ff8%2F0ae9f8cf06c04946b6ebb30d0e07e299%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/69b2605b-289f-4569-9613-cbf5e4599b1b/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Sobstvennye razskazy i risunki di︠e︡teĭ / sobral A. Kruchenykh."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/86%2F15%2F13%2F86151354c14544ceb1313ce0fb549b13%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a843f9f9-b80c-44bd-9a2b-217bb633f64f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Mstitelʹnyĭ Khudzhar / A. Samokhvalov, risunki avtora."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/39%2F01%2F07%2F3901072e2e3542f39efcc7f0215ab352%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/a5547fe0-71db-4045-8871-c6700907a545/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Vchera i segodni︠a︡ / S. Marshak i V. Lebedev"
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/5c%2F2b%2F65%2F5c2b65c313404da4ad304b6eb831c1b7%2Fintermediate_file/full/!200,150/0/default.jpg"
+    },
+    {
+      "id": "https://figgy.princeton.edu/concern/scanned_resources/4cc590f8-999e-4ba4-86fb-4c274e35c06c/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Kitaiskai︠a︡ boltushka / N. Agnivt︠s︡ev ; ris. I︠U︡. Ganfa."
+        ]
+      },
+      "thumbnail": "https://iiif-cloud.princeton.edu/iiif/2/54%2F2a%2Fe3%2F542ae3d235bc4c9c81a97a798d2b16cc%2Fintermediate_file/full/!200,150/0/default.jpg"
+    }
+  ]
+}

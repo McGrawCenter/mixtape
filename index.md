@@ -15,23 +15,8 @@ layout: default
 {% for item in site.collections %}
 <div class="col-md-4">
  <div class="card mb-4 box-shadow">
-  <h2><a href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a></h2>
+  <h2><a href="{{site.url}}{{item.url}}">{{ item.title }}</a></h2>
   <p>{{ item.description }}</p>
   </div>
 </div>
 {% endfor %}
-
-
-
-<script>
-/*
-var data = {{ site.data.collections | jsonify }}
-const title = document.getElementById("page-title");
-const gallery = document.getElementById("page-title");
-
-data.forEach( ele => { 
-   console.log(ele.Filename);
-   documen
-   })
-*/
-</script>
