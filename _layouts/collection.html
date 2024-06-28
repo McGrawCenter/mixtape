@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <div class="container" aria-label="Content">
+      <div class='row'>
+       <div class='col-md-6'>
+        <h2>{{ page.title }}  {{site.url}}/manifests/{{page.manifest}}</h2>
+        
+
+       </div>
+       <div class='col-md-' style='text-align:right;'>
+       <a href="https://mcgrawcenter.github.io/mirador/?manifest={{site.url}}/manifests/{{page.manifest}}" target="_blank"><img src="{{site.baseurl}}/assets/images/iiif-logo.png" style='height:32px'/></a>
+       </div>       
+      </div>    
+      <div class='row'>
+       <div class='col-md-12'>
+       
+       <p>{{ page.description }}</p>
+       
+       <a href="#" class="makeCollection">Make Collection</a>
+       
+       <ul id="gallery" style="margin-top:2em;"></ul>
+
+        {{ content }}
+        
+       </div>
+      </div>
+    </div>
+
+    {%- include footer.html -%}
+    
+    
+    <script>
+    
+    var data = {{ tech | jsonify }}
+    
+    function show() {
+	var tab = window.open('about:blank', '_blank');
+	tab.document.write(JSON.stringify(data)); // where 'html' is a variable containing your HTML
+	tab.document.close(); // to finish loading the page
+
+    }
+    
+    var manifest = "{{site.url}}/manifests/{{page.manifest}}";
+   parse(manifest);
+    
+
+
+
+/************************************/
+
+
+  function parse (url){ 
+         fetch(url)
+	  .then(response => {
+	          if (!response.ok) { throw new Error(response.statusText); }
+	          return response.json();
+	  })
+	  .then(data => {
+	     if (("@type" in data) && data['@type'] == "sc:Manifest") {   parsev2Manifest(data);   }
+	     else if (("@type" in data) && data['@type'] == "sc:Collection") {    parsev2Collection(data);    }
+	     else if (("type" in data) && data['type'] == "Manifest") {    parsev3Manifest(data);    }
+	     else if (("type" in data) && data['type'] == "Collection") {    parsev3Collection(data);    }
+	     else { console.log("cannot parse manifest"); }
+	  });
+
+  }
+  
+  function parsev2Manifest (data){
+    manifestobj = {}
+    manifestobj.id = data['@id'];  
+    if(typeof data.label === 'array') { manifestobj.label = data.label[0]; }
+    else { manifestobj.label = data.label; }
+    if(data.thumbnail === undefined) { manifestobj.thumbnail = data.sequences[0].canvases[0].images[0].resource.service['@id']+"/full/!300,300/0/default.jpg";  }
+    else if (typeof data.thumbnail === "string") { manifestobj.thumbnail = data.thumbnail; }
+    else if (typeof data.thumbnail === "object") { manifestobj.thumbnail = data.thumbnail['@id']; }
+    else {manifestobj.thumbnail = "thumbnail not found";  }
+    
+    addToList(manifestobj);
+  }
+  function parsev3Manifest (data){
+    manifestobj = {}
+    manifestobj.id = data.id;   
+    manifestobj.label = data.label[Object.keys(data.label)[0]]['0'];
+    if(data.thumbnail === undefined) { manifestobj.thumbnail = data.items[0].items[0].items[0].body.service[0]['@id']+"/full/!300,300/0/default.jpg"; }
+    else if (typeof data.thumbnail === "object") { manifestobj.thumbnail = data.thumbnail[0].id; } 
+    
+    addToList(manifestobj);
+  }
+  
+  
+  function parsev2Collection (data){
+    for(const item of data.manifests) {
+       var manifest = item['@id'];
+       parse(manifest);
+    }
+  } 
+  function parsev3Collection (data){
+     for(const item of data.items) {
+       var manifest = item['id'];
+       parse(manifest);
+     }
+  }
+  
+  function addToList(o) {
+    console.log(o);
+    var html = "<li class='tile'>\
+	  <div class='tile-image' data-manifest='"+o.id+"'><a href='#' class='hi'><img src='"+o.thumbnail+"'></a></div>\
+	  <div class='tile-title'>"+o.label+"</div>\
+	  <div class='tile-tools'>\
+	    <a href='https://mcgrawcenter.github.io/mirador/?manifest="+o.id+"' target='_blank'><img src='http://localhost:4000/assets/images/iiif-logo.png' style='height:22px;'></a>\
+	  </div>\
+	 </li>";
+  
+   jQuery("#gallery").append(html);
+  }
+
+
+
+
+/************************************/
+    
+    </script>
+
+  </body>
+
+</html>

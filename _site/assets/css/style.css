@@ -1,0 +1,33 @@
+
+#gallery { 
+ display:flex;
+ flex-direction:row;
+ flex-wrap:wrap;
+ list-style-type:none;
+ margin:0;
+ padding:0;
+ }
+#gallery .tile {
+ width:14.5%;
+ min-width:120px;
+ margin: 10px;
+} 
+#gallery .tile-image {
+ padding: 10px;
+ background: #DDD;
+ border-radius: 10px;
+ text-align:center;
+ border: solid 1px white;
+}
+
+#gallery .tile-image.active {
+  border: solid 1px red;
+}
+
+#gallery .tile img {
+ max-width:90%;
+} 
+
+#gallery .tile-title {
+ padding: 10px;
+}

@@ -1,0 +1,297 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/collection/top",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "Ethiopic Manuscripts"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "items": [
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz0022s6hw/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 55 Ṣālot bā᾽enetā ma'esāromu lā'aganenet"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz0022w3rd/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001zqv2t/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 52 Ṣālot ba᾽eneta Mā᾽esara Agān᾽ent"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001zqxsn/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001pzcnp/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 51 Ṣālot ba᾽eneta Mā᾽esaromu la- Agān᾽ent"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001pzcp6/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz0022s6gc/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 54 Ṣālot ba᾽eneta Mā᾽esara Agān᾽ent"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz0022vhh4/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001nwthk/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 46 Ṣālot bā᾽eneta bāreyā; Ṣalota Mastem"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001nwtnn/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001pz300/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 49 Marbabeta Salomon"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001pz31h/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hb2jn/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 18 Dersāna Mikā᾽él"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001hb2mp/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hbmcs/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 21 Māzemurā Dāwit, Asmat"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001hbmd9/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001d5ccx/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 1 Qeddāsé Māryām, Malek’ā Kidāna Mehrat"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001nw0gg/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001h9rbr/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 17 Sayefa Malakot"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001h9rds/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001d5z1z/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 3 Weddasé Māryām, Anqaṣa Berhān, Yewédeswā Malā’ekt, Mālk’ā Māryām, Malek’ā Eyasus"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001d5z30/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001d616z/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 7 Mazemura Dāwit, Ṣalota Nabiyat, Wedāsé Māryām, Anqaṣa Berhān"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001dx73q/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hc2p5/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 26 Ta’amra Eyesus"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001hc2qp/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001h9w74/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 23 Sayefa Malakot"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001h9w95/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hmcpn/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 40 Wānegel Zāyohāns"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001hpgkf/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001d61d2/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 47 Lefafā Ṣdeq"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001ds72d/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001d61b1/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 48 Salāmtā, Nagara Haymanot,  Malek’ā Gabre’él, Mahlet Ṣegé, Sāqoqāwa Denegel"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001d8jzg/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hmcn4/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 38 Malek’ā Māryām, Malek’ā Eyasus"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001ndgm1/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz0009pjcf/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 62 Māsehafā Ziq"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz0009pjg0/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hmch2/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 28 Mazemura Dāwit, Ṣalotā nabiyāt, Mahālya Mahāley, Weddāsé Māryām, Anqāsā Berhan"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001hmctq/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz0009n57m/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 5 Yetbārak Egzi’abehér amelāka Esrā’él …"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz0009n584/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001d61cj/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 58 Ṣalot s'elat wā'astabequ'ot"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001dh2q7/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz0009p0hs/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 15  Mesālyāta Salomon; Daqiqa Nabiyāt"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz0009p2d6/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001d7617/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 10 Ṭabiba Ṭabibān; Arde‛et"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001d8m41/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hmcq5/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 59 Maṣehafa Ziq, Malek’ā Śellāsé"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001hpw2g/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001d6180/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 8 Ṣālot ba᾽eneta Ḥemāma Ayena Ṭelā wa-Ayena Wareq, Māhléta Ṣegé, Seyefa Śelāssé, Qeddāsé Māryām"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001d7h23/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz0009nr7t/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 27 Teregwame Wanegel"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz0009nr9v/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz0009kp6f/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 2 Arede’et , Sena Feterat, Mesṭira Hāyamnot, Amestu A’emāda Mesṭir"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz0009kp90/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz0009gx8h/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 25 Masehafa Qeddasé"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz0009kc21/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hbn55/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 24 Mazemura Dāwit; salota nābiyat; Weddasé Māryām; Aneqaṣa Berhān"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001hbn76/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz0009nb92/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 41 Taseā’elotāta Zenāhomu la'abew Manakosāt Gebesāweyān"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz0009nbc3/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hcp11/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 39 Sā'atat"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001hcp32/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hcd0n/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 36 Wānegel Zāyohanes"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001hcd2p/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hmck3/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 34 Ṣelota Kidan; Temehereta Hebu'at; Malk’ā Māryām; Malk’ā Iyesus; Malk’ā Giyorgis; Sayefa Śellāsé; Qedase Māreyām; Malek’a Śellāsé; Malk’ā Takela Hayemanot; Malk’ā Medehane Alem."
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001hnq4n/full/!300,300/0/default.jpg"
+    },
+    {
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hmcjk/manifest",
+      "type": "Manifest",
+      "label": {
+        "en": "Ms. 32  Qeddāsé Māryām, Kidan, Mālke'ā Mādehané Alām, Malek’a Mikā᾽él, Malek’a Edom"
+      },
+      "thumbnail": "https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz001hn1xw/full/!300,300/0/default.jpg"
+    }
+  ]
+}
