@@ -1,0 +1,70 @@
+
+
+.icon { height:16px }
+.icon-lg { height:32px;margin:0.2em; }
+.icon-35 { height:35px;margin:0.2em; }
+
+
+#metadata {
+  padding: 1em;
+  background: ghostwhite;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #DDD;
+  margin-bottom:2em;
+}
+
+label { margin:0 0 0.3em 0.3em; }
+
+.toolbar { display:flex; justify-content:space-between; }
+.item-toolbar  { display:flex; justify-content:space-around; }
+.card-drawer { overflow-y:scroll; }
+.card-gallery { 
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  gap:0.5em;
+  margin-top:2em;
+  margin-bottom:2em;
+ }
+.card-gallery.grid { 
+  flex-wrap:wrap !important;
+ } 
+.card { width:9rem;min-width:9rem;font-size:0.8em; }
+.card-img-top-frame { height:120px;max-height:120px;overflow:hidden; }
+
+
+/*  for list
+.card { flex-direction:row;width:100% }
+.card { margin-bottom:0.5em; }
+.card-img-top {
+  width: 220px;
+  height: 15vw;
+  object-fit: cover;
+  max-width: 220px;
+  min-width: 220px;
+}
+*/
+
+
+#dropzone.dragover {  }
+
+#dropzone {
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+    
+  z-index:999;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 3em;
+  color: white;  
+}
+
+#dropzone.open {
+  display:flex;
+   bottom:0px;
+  background:rgba(30,100,255,0.9);
+}
