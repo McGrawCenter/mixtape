@@ -42,6 +42,7 @@ Flight::route('POST /', function () {
     header("Location:{$CONFIG['siteurl']}/{$token}/edit");
     die();
 });
+
 /***************************
 * Save
 ***********************/
@@ -52,6 +53,7 @@ Flight::route('POST /save', function () {
     $collection = new Collection();
     $collection->save($token, $x);
 });
+
 /***************************
 * View
 ***********************/

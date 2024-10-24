@@ -43,21 +43,30 @@ var mirador = Mirador.viewer({
     jQuery(document).on("click",'.openModal',function(e){
       e.preventDefault();
       var target = jQuery(this).attr('data-target');
-      console.log(target);
-      jQuery("#modal-body-iframe").attr("src",target);
-      var galleryModal = new bootstrap.Modal(document.getElementById('croppingToolModal'), { keyboard: false });
-      galleryModal.show();
+      if (e.ctrlKey) {
+        window.open(target, '_blank');
+      }
+      else {
+        jQuery("#modal-body-iframe").attr("src",target);
+        var galleryModal = new bootstrap.Modal(document.getElementById('croppingToolModal'), { keyboard: false });
+        galleryModal.show();
+      }
     });
     
     jQuery(document).on("click",'.openModalExternal',function(e){
       e.preventDefault();
       var target = jQuery(this).attr('data-target');
-      jQuery.get(target, function(data){
-        jQuery("#external-modal-body-text").val(target);
-        jQuery(".external-modal-body-textarea").text(JSON.stringify(data));
-      });
-      var galleryModal = new bootstrap.Modal(document.getElementById('externalModal'), { keyboard: false });
-      galleryModal.show();
+      if (e.ctrlKey) {
+        window.open(target, '_blank');
+      }
+      else {      
+        jQuery.get(target, function(data){
+          jQuery("#external-modal-body-text").val(target);
+          jQuery(".external-modal-body-textarea").text(JSON.stringify(data));
+        });
+        var galleryModal = new bootstrap.Modal(document.getElementById('externalModal'), { keyboard: false });
+        galleryModal.show();
+      }
     });
     
     /***************************
