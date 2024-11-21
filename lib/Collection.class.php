@@ -90,7 +90,8 @@ class Collection
     	$json = addslashes(json_encode($this));
     	
         if (!$this->exists($token)) {
-            $sql = "INSERT into collection (`label`,`summary`,`token`,`thumbnail`,`json`,`email`,`status`) VALUES ('{$this->label->en[0]}','{$this->summary->en[0]}','{$token}','{$this->thumbnail[0]->id}','{$json}','{$email}',0)";
+            $now = date("Y-m-d H:i:s");
+            $sql = "INSERT into collection (`label`,`summary`,`token`,`thumbnail`,`json`,`email`,`expire`,`status`) VALUES ('{$this->label->en[0]}','{$this->summary->en[0]}','{$token}','{$this->thumbnail[0]->id}','{$json}','{$email}', '{$now}', 0)";
             return $db->query($sql);
         }
     }
@@ -136,19 +137,7 @@ class Collection
         return $key;
     }
     
-    
-    
-    
 
-/*
-    function getCollections()
-    {
-    	global $db;
-        $sql = "SELECT label, thumbnail, token as id FROM collection ";
-        return $db->fetchObj($sql);
-    }
-*/ 
-    
     
     
     function sendmail($email, $message, $token) {
