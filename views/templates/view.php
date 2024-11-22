@@ -51,7 +51,7 @@
 
   <div class='header-toolbar'>
 <a href="#" data-target="https://mcgrawcenter.github.io/mirador/?manifest=<?= $siteurl ?>/<?= $ID ?>/manifest" id="mirador_link" class="openModal"><img src="<?= $siteurl ?>/views/assets/images/mirador_logo.png" class="icon-lg"></a>
-<a href="#" data-target="https://etcpanel.princeton.edu/IIIF/mixtape/33/manifest" id="manifest_link" class='openModal'><img src="<?= $siteurl ?>/views/assets/images/iiif_logo.png" class="icon-lg"></a>
+<a href="#" data-target="<?php echo $siteurl; ?>/33/manifest" id="manifest_link" class='openModal'><img src="<?= $siteurl ?>/views/assets/images/iiif_logo.png" class="icon-lg"></a>
 <a href="#" data-target="https://mcgrawcenter.github.io/croppingtool/?manifest=<?= $siteurl ?>/<?= $ID ?>/views//manifest" class='openModal'><img src="<?= $siteurl ?>/views/assets/images/crop.svg" class="icon-lg"></a>
   </div>
 

@@ -52,9 +52,9 @@
 
   <div class='header-toolbar'>
 <a href="<?= $siteurl ?>/<?= $ID ?>" target="_blank" alt="Share" title="Share"><img src="<?= $siteurl ?>/views/assets/images/cassette-fill.svg" class="icon-35"></a>
-<a href="https://mcgrawcenter.github.io/mirador/?manifest=https://etcpanel.princeton.edu/IIIF/mixtape/24/manifest" id="mirador_link" target="_blank" alt="Open collection in Mirador" title="Open collection in Mirador"><img src="<?= $siteurl ?>/views/assets/images/mirador_logo.png" class="icon-lg"></a>
-<a href="https://etcpanel.princeton.edu/IIIF/mixtape/24/manifest" id="manifest_link" target="_blank" alt="Open collection manifest" title="Open collection manifest"><img src="<?= $siteurl ?>/views/assets/images/iiif_logo.png" class="icon-lg"></a>
-<a href="https://mcgrawcenter.github.io/croppingtool/?manifest=https://etcpanel.princeton.edu/IIIF/mixtape/24/manifest" target="_blank" alt="Open collection in cropping tool" title="Open collection in cropping tool"><img src="<?= $siteurl ?>/views/assets/images/crop.svg" class="icon-lg"></a>
+<a href="https://mcgrawcenter.github.io/mirador/?manifest=<?php echo $siteurl; ?>/<?php echo $ID; ?>/manifest" id="mirador_link" target="_blank" alt="Open collection in Mirador" title="Open collection in Mirador"><img src="<?= $siteurl ?>/views/assets/images/mirador_logo.png" class="icon-lg"></a>
+<a href="<?php echo $siteurl; ?>/24/manifest" id="manifest_link" target="_blank" alt="Open collection manifest" title="Open collection manifest"><img src="<?= $siteurl ?>/views/assets/images/iiif_logo.png" class="icon-lg"></a>
+<a href="https://mcgrawcenter.github.io/croppingtool/?manifest=<?php echo $siteurl; ?>/24/manifest" target="_blank" alt="Open collection in cropping tool" title="Open collection in cropping tool"><img src="<?= $siteurl ?>/views/assets/images/crop.svg" class="icon-lg"></a>
 
 <a href="#" alt='Save collection' class='save' alt="Save collection" title="Save collection"><img src="<?= $siteurl ?>/views/assets/images/save.svg" class='icon-lg' title='Save collection'/></a>  
   </div>
@@ -77,7 +77,7 @@
     
   <label for="manifest">Add manifest:</label>
   <div style="position:relative">
-  <input type="text" name="manifest" class="form-control" id="manifest" style="width: 100%;" placeholder="Manifest URL" value="https://data.artmuseum.princeton.edu/iiif/objects/23744">
+  <input type="text" name="manifest" class="form-control" id="manifest" style="width: 100%;" placeholder="Manifest URL" value="">
   <input type="button" class="btn btn-primary" id="manifest-add" value="Add" style="position:absolute;right:0px;top:0px">
   </div>
 

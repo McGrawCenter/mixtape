@@ -29,7 +29,7 @@ label { margin:0 0 0.3em 0.3em; }
 .card-gallery.grid { 
   flex-wrap:wrap !important;
  } 
-.card { width:9rem;min-width:9rem;font-size:0.8em; }
+.card { width:9rem;min-width:9rem;font-size:0.8em;cursor:grabbing; }
 .card-img-top-frame { height:120px;max-height:120px;overflow:hidden; }
 
 
