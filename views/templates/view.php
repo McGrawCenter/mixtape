@@ -91,9 +91,6 @@
       <div class="modal-body">
          <iframe id="modal-body-iframe" src="https://mcgrawcenter.github.io/croppingtool/?manifest=<?= $siteurl ?>/<?= $ID ?>/manifest" width="100%" height="600"></iframe>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
     </div>
   </div>
 </div>
@@ -116,11 +113,7 @@
          <div class="form-group">
             <label for="external-modal-body-textarea">Contents</label>
             <textarea id="external-modal-body-textarea" class='external-modal-body-textarea form-control' style='width:100%;height:200px;'></textarea>
-         </div>
-         
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         </div>      
       </div>
     </div>
   </div>
