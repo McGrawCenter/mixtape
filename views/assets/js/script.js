@@ -117,8 +117,15 @@ jQuery(document).ready(function() {
         e.preventDefault();
     });
 
-
-
+    /***************************
+     * click on collection summary
+     * allow for larger rich text editor
+     *******************/
+     /*
+    jQuery("#collection-summary").click(function(){
+      jQuery(".addtexticon").addClass('shown');
+    });
+     */
 
     /*************************** FUNCTIONS *************************/
 

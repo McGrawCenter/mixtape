@@ -44,7 +44,7 @@
     
     <h2 id='collection-label' contenteditable="true"><?= $label ?></h2>
     <h5 id='collection-summary' contenteditable="true"><?= $summary ?></h5>
-    <!--<div><img src="<?= $siteurl ?>/views/assets/images/info-circle.svg"/></div>-->
+    <div class='addtexticon'><img src="<?= $siteurl ?>/views/assets/images/plus-circle.svg"/></div>
 
     </div>
     <div class='col-3' style='text-align:right;'>
@@ -69,7 +69,7 @@
 
   </div>
   
-  <div class="row">
+  <div class="row" style="margin-top:1em;">
     <div class="col-12">
     
   <label for="manifest">Add manifest:</label>

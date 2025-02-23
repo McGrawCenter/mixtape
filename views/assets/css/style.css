@@ -104,7 +104,9 @@ label { margin:0 0 0.3em 0.3em; }
 .btn-external { 
   background: transparent;
   border: 0; }
-
+  
+.addtexticon { display:none; }
+.addtexticon.shown { display:block; }
 
 @media screen and (max-width: 520px) {
   .card {
