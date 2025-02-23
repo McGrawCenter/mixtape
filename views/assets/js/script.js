@@ -66,6 +66,8 @@ jQuery(document).ready(function() {
      *******************/
     jQuery("#manifest-add").click(function(e) {
         var url = jQuery("#manifest").val();
+        // if the url has a ?manifest= parameter, get rid of it
+        if(url.indexOf('manifest=') > 0) { url = getQueryVariable(url);  }        
         if (url !== "") {
             // check if manifest is already in manifest
             exists(url);
@@ -111,6 +113,7 @@ jQuery(document).ready(function() {
             load();
         }
         load();
+        save();
         e.preventDefault();
     });
 
@@ -132,7 +135,7 @@ jQuery(document).ready(function() {
             'json': JSON.stringify(json)
         }
         jQuery.post('../save', d, function(response) {
-            console.log(response);
+            console.log("saved",response);
         });
 
         var src = jQuery(".save img").attr('src').replace('save', 'save-green');
@@ -160,7 +163,7 @@ jQuery(document).ready(function() {
     }
 
 
-
+    // save re-sequenced items
     function updateItems() {
         var items = jQuery('.card');
         var newarr = [];
@@ -182,7 +185,21 @@ jQuery(document).ready(function() {
 
         url = getQueryVariable(url);
         
+        // if this is an Internet Archive URL
+        // convert it to a manifest
+        if(url.indexOf("archive.org") > 0 && url.indexOf("details") > 0) { 
+           url = internetArchive2Manifest(url);
+        }    
+
+        // if this is a Wikimedia Commons URL
+        // convert it to a manifest
+        if(url.indexOf("commons.wikimedia.org") > 0 && url.indexOf("File:") > 0) {
+           url = wikimediaCommons2Manifest(url);
+        } 
+        
+        
         const vault = new IIIFVault.Vault();
+        //const vault = new HyperionVault.Vault();
         var item = {
             'id': '',
             'type': 'Manifest',
@@ -238,12 +255,18 @@ jQuery(document).ready(function() {
                     var p2 = vault.get(p1.items[0]);
                     var p3 = vault.get(p2.items[0]);
                     var p4 = vault.get(p3.body[0]);
-                    var service = p4.service[0];
-                    if (service.type == 'ImageService3') {
-                        item.thumbnail[0].id = service.id + "/full/,600/0/default.jpg";
-                    } else {
-                        item.thumbnail[0].id = service['@id'] + "/full/,600/0/default.jpg";
+
+
+                    if(Object.prototype.toString.call(p4.service) == '[object Array]') {
+                      if(Object.hasOwn(p4.service[0], 'id'))  { item.thumbnail[0].id = p4.service[0].id + "/full/,300/0/default.jpg"; }
+                      if(Object.hasOwn(p4.service[0], '@id')) { item.thumbnail[0].id = p4.service[0]['@id'] + "/full/,300/0/default.jpg"; }
+		     }
+                    else {
+                      if(Object.hasOwn(p4.service, 'id'))  { console.log('1');item.thumbnail[0].id = p4.service.id + "/full/,300/0/default.jpg"; }
+                      if(Object.hasOwn(p4.service, '@id')) { console.log('2');item.thumbnail[0].id = p4.service['@id'] + "/full/,300/0/default.jpg"; }
                     }
+
+                   
 
                     json.items.push(item);
 
@@ -280,6 +303,8 @@ jQuery(document).ready(function() {
         event.stopPropagation();
         var d = event.originalEvent.dataTransfer;
         var url = d.getData("text");
+        // if the url has a ?manifest= parameter, get rid of it
+        if(url.indexOf('manifest=') > 0) { url = getQueryVariable(url);  }
         jQuery("#manifest").val(url);
         $("#dropzone").removeClass('open');
         if (url !== "") {
@@ -299,6 +324,7 @@ jQuery(document).ready(function() {
         var match = false;
         jQuery.each(json.items, function(i, v) {
             if (v.id == id) {
+                console.log('manifest already exists in collection');
                 match = true;
             }
         });
@@ -310,11 +336,13 @@ jQuery(document).ready(function() {
 
     function cardTemplate(sort, o) {
         var rand = Math.floor(Math.random() * 10000);
-        if (o.label.en[0].length > 80) {
-            o.label.en[0] = o.label.en[0].substring(0, 80) + "...";
-        }
+        var label = o.label.en[0];
+        var displaylabel = o.label.en[0];
+        //if (o.label.en[0].length > 24) {
+        //    displaylabel = o.label.en[0].substring(0, 24) + "...";
+        //}
 
-        var html = "<div class='card' id='card" + rand + "' data-sort='"+sort+"' data-id='" + o.id + "'><a class='card-img-top-frame' href='https://mcgrawcenter.github.io/mirador/?manifest=" + o.id + "' target='_blank'><img class='card-img-top' src='" + o.thumbnail[0].id + "' alt='Card image cap'></a><div class='card-body'><p class='card-title'>" + o.label.en[0] + "</p></div><div class='card-footer'><div class='item-toolbar'><a href='https://mcgrawcenter.github.io/croppingtool/?manifest=" + o.id + "' target='_blank'><img src='" + siteurl + "/views/assets/images/crop.svg' class='icon'></a><a href='https://mcgrawcenter.github.io/mirador/?manifest=" + o.id + "' target='_blank'><img src='" + siteurl + "/views/assets/images/mirador_logo.png' class='icon'></a><a href='" + o.id + "' target='_blank'><img src='" + siteurl + "/views/assets/images/iiif_logo.png' class='icon'></a><a href='#' class='remove' rel='" + o.id + "'><img src='" + siteurl + "/views/assets/images/x.svg' class='icon'></a></div></div></div>";
+        var html = "<div class='card' id='card" + rand + "' data-sort='"+sort+"' data-id='" + o.id + "'><div class='card-img'><img class='card-img-top' src='" + o.thumbnail[0].id + "' alt='" + label + "' title='" + label + "'></div><div class='card-body'><p class='card-title'>" + o.label.en[0] + "</p></div><div class='card-footer'><div class='item-toolbar'><a href='https://mcgrawcenter.github.io/mirador/?manifest=" + o.id + "' target='_blank'><img src='" + siteurl + "/views/assets/images/mirador_logo.png' class='icon'></a><a href='" + o.id + "' target='_blank'><img src='" + siteurl + "/views/assets/images/iiif_logo.png' class='icon'></a><a href='https://mcgrawcenter.github.io/croppingtool/?manifest=" + o.id + "' target='_blank'><img src='" + siteurl + "/views/assets/images/crop.svg' class='icon'></a><a href='#' class='remove' rel='" + o.id + "'><img src='" + siteurl + "/views/assets/images/x.svg' class='icon'></a></div></div></div>";
         return html;
     }
 
@@ -380,6 +408,28 @@ jQuery(document).ready(function() {
       str = str.replace(/'/g,"\'");
       return str;
     }
+
+
+  /************************************
+  * 
+  *************************************/
+  function internetArchive2Manifest (url) {
+     var parts = url.split("/");
+     for(var x=0;x<=parts.length;x++) { 
+       if(parts[x] == 'details') { 
+         var ia_id = parts[x+1];
+         return "https://iiif.archive.org/iiif/"+ia_id+"/manifest.json";
+       }
+     }     
+  }
+
+  /************************************
+  * 
+  *************************************/
+  function wikimediaCommons2Manifest (url) {  
+    var parts = url.split("File:");
+    return "https://iiif.juncture-digital.org/wc:"+parts[1]+"/manifest.json";  
+  }
 
 
 });

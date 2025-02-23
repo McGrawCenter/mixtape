@@ -33,11 +33,13 @@
         <div class="container">
 
           <div class="row">
-	     <div class="col-6" style="text-align:right">
-		<img src="<?= $siteurl ?>/views/assets/images/cassette.svg" style='height:120px;'/>
+	     <div class="col-6">
+		<h2>Forgotten the addresses or your collections?</h2>Get a list sent to your email address.
 	    </div>
-	     <div class="col-6" style="display: flex;flex-direction: column;justify-content: center;">
-		<a href="new"><button class="btn btn-primary">New Collection</button></a>
+	     <div class="col-6" style='display:flex;flex-direction:column;justify-content:center;'>
+		<form method="POST" action="<?= $siteurl; ?>/retrieve" style="display:flex;">
+		  <input type="text" name="email" placeholder="myname@email.com" class="form-control" style='width:220px;margin-right:0.5em;'/> <input type="submit" value='Send' class='btn btn-primary'/> 
+		</form>
 	    </div>
 		
           </div>

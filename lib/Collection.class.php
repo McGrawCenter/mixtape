@@ -11,8 +11,8 @@ class Collection
         $this->type = 'Collection';
         $this->label = (object) ['en' => ['']];
         $this->summary = (object) ['en' => ['']];
-        $this->metadata = array((object) ['label'=>(object)['en'=>['Description']], 'value'=>(object)['en'=>['This is the description']]]);
-        $this->thumbnail = array((object) ["id" => "", "type" => "Image", "format" => "image/jpeg", ]);
+        //$this->metadata = array((object) ['label'=>(object)['en'=>['Description']], 'value'=>(object)['en'=>['This is the description']]]);
+        //$this->thumbnail = array((object) ["id" => "", "type" => "Image", "format" => "image/jpeg", ]);
         $this->items = [];
     }
 
@@ -38,7 +38,7 @@ class Collection
 	if(count($jsonobj->items) > 0) {
              $thumbnail = $jsonobj->items[0]->thumbnail[0]->id;
 	}
-        $sql = "UPDATE collection SET label = '{$label}',summary = '{$summary}', thumbnail = '{$thumbnail}', json = '{$json}' WHERE token = '{$token}'";
+        $sql = "UPDATE collection SET label = '{$label}',summary = '{$summary}', thumbnail = '', json = '{$json}' WHERE token = '{$token}'";
 	try {
 		$db->query($sql);
 		$o = $this->get($token);
@@ -62,16 +62,40 @@ class Collection
         }
     }    
     */
-    function getById($id)
+    function getById($id, $exclude = null)
     {
     	global $db;
         $sql = "SELECT * FROM collection WHERE ID = '{$id}';";
         if ($result = $db->query($sql)->fetch_assoc()) {
+            if(isset($exclude)) { 
+              $e = explode(",",$exclude);
+              $json = json_decode($result->json);
+              foreach($json->items as $index=>$item) { 
+                if(!in_array($index, $e)) { unset($json->items[$index]); }
+               }
+              $result->json = $json;
+            }
             return $result;
         } else {
             return false;
         }
     }  
+    
+    function exclude($json, $include_only) {
+
+      $o = json_decode($json);
+      $included = explode(",",$include_only);
+      $items = array();
+      foreach($o->items as $index=>$item) { 
+        if(in_array($index, $included)) { $items[] = $o->items[$index]; }
+       }
+      $o->items = $items;
+      return json_encode($o);
+    }
+
+
+
+
 
     function exists($token)
     {
@@ -90,11 +114,12 @@ class Collection
     	$json = addslashes(json_encode($this));
     	
         if (!$this->exists($token)) {
-            $sql = "INSERT into collection (`label`,`summary`,`token`,`thumbnail`,`json`,`email`,`status`) VALUES ('{$this->label->en[0]}','{$this->summary->en[0]}','{$token}','{$this->thumbnail[0]->id}','{$json}','{$email}',0)";
+            $now = date("Y-m-d");
+            $sql = "INSERT into collection (`label`,`summary`,`token`,`thumbnail`,`json`,`email`,`expire`,`status`) VALUES ('{$this->label->en[0]}','{$this->summary->en[0]}','{$token}','','{$json}','{$email}', '{$now}', 0)";
+
             return $db->query($sql);
         }
     }
-
 
 
     function update($token)
@@ -120,7 +145,7 @@ class Collection
             $sql = "INSERT into collection (`label`,`summary`,`token`,`thumbnail`,`json`) VALUES ('{$label}','{$summary}','{$token}','{$thumbnail}',\"{$json}\")";
             $db->insert($sql);
         } else {
-            $sql = "UPDATE collection SET label = '{$label}',summary = '{$summary}', thumbnail = '{$thumbnail}', json = '{$json}' WHERE token = '{$token}'";
+            $sql = "UPDATE collection SET label = '{$label}',summary = '{$summary}', thumbnail = '', json = '{$json}' WHERE token = '{$token}'";
             $db->query($sql);
         }
     }
@@ -136,22 +161,10 @@ class Collection
         return $key;
     }
     
-    
-    
-    
 
-/*
-    function getCollections()
-    {
-    	global $db;
-        $sql = "SELECT label, thumbnail, token as id FROM collection ";
-        return $db->fetchObj($sql);
-    }
-*/ 
     
     
-    
-    function sendmail($email, $message, $token) {
+    function sendmail($email, $message) {
 	// In case any of our lines are larger than 70 characters, we should use wordwrap()
 	$message = wordwrap($message, 70, "\r\n");
 
@@ -160,11 +173,28 @@ class Collection
     }
 
 
+    function retrieve($siteurl, $email) {
+    	global $db;  
+        $sql = "SELECT * FROM collection WHERE email = '{$email}';";
+        if ($result = $db->query($sql)->fetch_all(MYSQLI_ASSOC)) {
+            $message = "";
+            foreach($result as $re) {
+              $message .= "{$re['label']}\r\n{$siteurl}/{$re['token']}/edit\r\n\r\n";
+            }
+            return $message;
+        } else {
+            return false;
+        }
 
+    }
 
 
     function cors()
     {
+    
+    	header("Access-Control-Allow-Origin: *");
+
+/*
         // Allow from any origin
         if (isset($_SERVER['HTTP_ORIGIN'])) {
             // Decide if the origin in $_SERVER['HTTP_ORIGIN'] is one
@@ -187,7 +217,12 @@ class Collection
 
             exit(0);
         }
+*/
     }
+    
+    
+    
+    
     
     function sanitizeInteger($str) {  
       return filter_var($str, FILTER_SANITIZE_NUMBER_INT);

@@ -19,29 +19,45 @@ Flight::route('POST /', function () {
     global $CONFIG;
     global $db;
     
-    // only allow post requests from self
-    if ($_SERVER['SERVER_ADDR'] != $_SERVER['REMOTE_ADDR']){
-       $this->output->set_status_header(400, 'No Remote Access Allowed');
-       exit;
-    }
-
+    if($_POST['name'] == "") {
     $collection = new Collection();
     $token = $collection->token();
-
     $collection->label->en[0] = addslashes($_POST['label']);
     $collection->summary->en[0] = addslashes($_POST['summary']);
-    $collection->thumbnail[0]->id = $CONFIG['default_thumbnail'];
-    
+    //$collection->thumbnail[0]->id = $CONFIG['default_thumbnail'];
+
     $email = $_POST['email'];
 
     $collection->create($token, $email);
     // SEND AN EMAIL
-    //$message = "Dear Mixtape user,\r\n\r\nYour IIIF collection is available for editing at: \r\n\r\n".$CONFIG['siteurl']."/{$token}/edit";
-    //$collection->sendmail($email, $message, $token);
+    $message = "Dear Mixtape user,\r\n\r\nYour IIIF collection, \"{$_POST['label']}\" is available for editing at: \r\n\r\n".$CONFIG['siteurl']."/{$token}/edit\r\n\r\nBe sure to save this URL so that you can return to edit your collection.";
+    $collection->sendmail($email, $message);
 
-    header("Location:{$CONFIG['siteurl']}/{$token}/edit");
+    header("Location:{$CONFIG['siteurl']}/welcome");
+    }
     die();
 });
+
+/***************************
+* Save
+***********************/
+Flight::route('POST /retrieve', function () {
+    global $CONFIG;
+    if(isset($_POST['email']) && $_POST['email'] != "") {
+      $collection = new Collection();
+      $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
+      if($email) {
+         $html = $collection->retrieve($CONFIG['siteurl'], $email);
+
+         // SEND AN EMAIL
+         $collection->sendmail($email, $html);
+         $data = array('siteurl' => $CONFIG['siteurl'],'message'=>"Check your email for a list of collections associated with your email.");
+         Flight::render('templates/message.php', $data);
+         die();
+      }
+    }
+});
+
 /***************************
 * Save
 ***********************/
@@ -52,6 +68,7 @@ Flight::route('POST /save', function () {
     $collection = new Collection();
     $collection->save($token, $x);
 });
+
 /***************************
 * View
 ***********************/
@@ -61,8 +78,62 @@ Flight::route('/@id:[0-9]+', function (string $id) {
     $collection = new Collection();
     $d = $collection->getById($id);
     $d['siteurl'] = $CONFIG['siteurl'];
+    $d['id'] = $id;
     Flight::render('templates/view.php', $d);
 });
+
+/***************************
+* View - CSV
+***********************/
+Flight::route('/@id:[0-9]+/csv', function (string $id) {
+    global $CONFIG;
+    global $db;
+    $collection = new Collection();
+    $d = $collection->getById($id);
+    $d['siteurl'] = $CONFIG['siteurl'];
+    $d['id'] = $id;
+    $json = json_decode($d['json']);
+    $d['items'] = $json->items;
+    header("Pragma: public");
+    header("Expires: 0");
+    header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
+    header("Cache-Control: private",false);
+    header("Content-Type: application/octet-stream");
+    header("Content-Disposition: attachment; filename=\"collection.csv\";" );
+    header("Content-Transfer-Encoding: binary");     
+    Flight::render('templates/csv.php', $d);
+});
+
+/***************************
+* View - Carousel
+***********************/
+Flight::route('/@id:[0-9]+/carousel', function (string $id) {
+    global $CONFIG;
+    global $db;
+    $collection = new Collection();
+    $d = $collection->getById($id);
+    $d['siteurl'] = $CONFIG['siteurl'];
+    $d['id'] = $id;
+    $json = json_decode($d['json']);
+    $d['items'] = $json->items;   
+    Flight::render('templates/carousel.php', $d);
+});
+
+/***************************
+* View - Carousel
+***********************/
+Flight::route('/@id:[0-9]+/art', function (string $id) {
+    global $CONFIG;
+    global $db;
+    $presentation = new Presentation();
+    $d = $presentation->getById($id);
+    $d['siteurl'] = $CONFIG['siteurl'];
+    $d['id'] = $id;
+
+    print_r($presentation);die();
+});
+
+
 /***************************
 * Collection Manifest
 ***********************/
@@ -75,12 +146,54 @@ Flight::route('/@id:[0-9]+/manifest', function (string $id) {
     echo $json;
     die();   
 });
+
+
+/***************************
+* Collection Manifest
+***********************/
+Flight::route('/@id:[0-9]+/manifest/@canvases', function (string $id, string $canvases) {
+    $collection = new Collection();
+    $d = $collection->getById($id);
+    $json = $d['json'];
+    if(isset($canvases)) {
+      $json = $collection->exclude($json, $canvases);
+    }
+    $collection->cors();
+    header('Content-Type: application/json');
+    echo $json;
+    die();   
+});
+
+
+
 /***************************
 * Add
 ***********************/
 Flight::route('/new', function () {
-    Flight::render('templates/new.php');
+    global $CONFIG;
+    $data = array("siteurl"=>$CONFIG['siteurl']);
+    Flight::render('templates/new.php', $data);
 });
+
+/***************************
+* Add
+***********************/
+Flight::route('/welcome', function () {
+    global $CONFIG;
+    $data = array("siteurl"=>$CONFIG['siteurl']);
+    Flight::render('templates/email.php', $data);
+});
+
+/***************************
+* Retrieve
+***********************/
+Flight::route('/retrieve', function () {
+    global $CONFIG;
+    $data = array("siteurl"=>$CONFIG['siteurl']);
+    Flight::render('templates/retrieve.php', $data);
+});
+
+
 /***************************
 * Edit
 ***********************/

@@ -20,13 +20,16 @@
     
 
     <!-- import Mirador  -->
-    <!-- <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>   -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@iiif/vault@latest/dist/index.umd.js?ver=6.6.1" id="canvaspanel-js"></script> 
+    <!-- <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script> 
+    <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@iiif/vault@latest/dist/index.umd.js?ver=6.6.1" id="canvaspanel-js"></script>   -->
     
     <script>
 	var manifest = "<?= $siteurl ?>/<?= $ID ?>/manifest";
+	var id = <?= $id ?>;
 	var siteurl = "<?= $siteurl ?>";
-	var json = <?= $json ?>	
+	var json = <?= $json ?>;
+	var selected = [];	
     </script> 
   </head>
   <body>
@@ -34,8 +37,8 @@
 
 
   
-<script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
-<div class="container-fluid" style='margin-top:2%;margin-bottom:3%;'>
+
+<div class="container-fluid" id="banner">
   <div class="row">
   
     <div class='col-9'>
@@ -51,8 +54,8 @@
 
   <div class='header-toolbar'>
 <a href="#" data-target="https://mcgrawcenter.github.io/mirador/?manifest=<?= $siteurl ?>/<?= $ID ?>/manifest" id="mirador_link" class="openModal"><img src="<?= $siteurl ?>/views/assets/images/mirador_logo.png" class="icon-lg"></a>
-<a href="#" data-target="https://etcpanel.princeton.edu/IIIF/mixtape/33/manifest" id="manifest_link" class='openModal'><img src="<?= $siteurl ?>/views/assets/images/iiif_logo.png" class="icon-lg"></a>
-<a href="#" data-target="https://mcgrawcenter.github.io/croppingtool/?manifest=<?= $siteurl ?>/<?= $ID ?>/views//manifest" class='openModal'><img src="<?= $siteurl ?>/views/assets/images/crop.svg" class="icon-lg"></a>
+<a href="#" data-target="<?php echo $siteurl; ?>/<?php echo $id; ?>/manifest" id="manifest_link" class='openModalExternal'><img src="<?= $siteurl ?>/views/assets/images/iiif_logo.png" class="icon-lg"></a>
+<a href="#" data-target="https://mcgrawcenter.github.io/croppingtool/?manifest=<?= $siteurl ?>/<?= $ID ?>/views/manifest" id="croppingtool_link" class='openModal'><img src="<?= $siteurl ?>/views/assets/images/crop.svg" class="icon-lg"></a>
   </div>
 
 
@@ -66,7 +69,7 @@
 
 
 
-<div class="container-fluid">
+<div class="container-fluid" id="main" style="margin-top:0px;">
   <div class="row">
     <div class='col-12'>
     
@@ -86,20 +89,28 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
+        <a href="#" target="_blank" id="external_link">
+        <button type="button" class="btn-external" data-bs-dismiss="modal" aria-label="Open new window">
+          <img src="<?= $siteurl ?>/views/assets/images/external.svg" style="height:30px;padding: 0.6em 0 0.15em 0;"/>
+        </button>
+        </a>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-         <iframe id="modal-body-iframe" src="https://mcgrawcenter.github.io/croppingtool/?manifest=<?= $siteurl ?>/<?= $ID ?>/manifest" width="100%" height="600"></iframe>
+         <iframe id="modal-body-iframe" src="" width="100%" height="600"></iframe>
       </div>
     </div>
   </div>
 </div>
 
-<!-- Cropping Tool Modal -->
+
+
+<!-- External Tool Modal - IIIF manifest -->
 <div class="modal modal-xl fade" id="externalModal" tabindex="-1" aria-labelledby="externalModal" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
+        
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="external-modal-body" style="padding:1.5em;">
@@ -113,8 +124,7 @@
          <div class="form-group">
             <label for="external-modal-body-textarea">Contents</label>
             <textarea id="external-modal-body-textarea" class='external-modal-body-textarea form-control' style='width:100%;height:200px;'></textarea>
-         </div>
-         
+         </div>      
       </div>
     </div>
   </div>
@@ -122,6 +132,12 @@
 
 <script src="<?= $siteurl ?>/views/assets/js/gallery.js"></script>
 <script>
+
+
+var window_height = window.innerHeight;
+jQuery("#modal-body-iframe").css('height',(window_height - 160));
+
+
 function copytext() {
   var copytext = document.getElementById("external-modal-body-text");
   copytext.select();

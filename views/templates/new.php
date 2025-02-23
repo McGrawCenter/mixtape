@@ -16,33 +16,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
 
     
-    <link rel="stylesheet" href="https://etcpanel.princeton.edu/IIIF/mixtape/assets/css/style.css">
+    <link rel="stylesheet" href="<?= $siteurl ?>/views/assets/css/style.css">
     
 
     <!-- import Mirador  -->
     <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>  
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@iiif/vault@latest/dist/index.umd.js?ver=6.6.1" id="canvaspanel-js"></script> 
-    <script>
-    var siteurl = "https://etcpanel.princeton.edu/IIIF/mixtape";
-    </script> 
+
   </head>
   <body>
   
 
-
   
 
 <form method='POST' action="./" onsubmit="return signupValidation()">
-
-
 <div class="container" style='margin-top:2em;'>
   <div class="row">
     <div class='col-6'>
     
        <h2>Create a collection</h2>
-    
-       <div></div>
-    
+
 
 	  <input type="hidden" name="action" value="create"/>
 	  <input type="hidden" name="token" value=""/>
@@ -55,6 +48,8 @@
 	    <label for="summary">Collection Description</label>
 	    <textarea type="text" class="form-control" id="summary" name="summary" placeholder="Enter a description" rows='2'></textarea>
 	  </p>
+	  
+	  <input type="text" class="form-control" id="name" name="name" aria-describedby="userName" placeholder="Enter Name">
 	  
 	  <p class="form-group">
 	    <label for="email" id="email-label">Email address (required)</label>
@@ -75,11 +70,14 @@
     
        <h3>Terms and conditions</h3>
     
-       <ul>
-         <li>Collection Mixtape is provided 'as-is'. Availability of the tool and the collection manifests generated from it cannot be guaranteed.</li>
-         <li>Collection Mixtape reserves the right to remove any collection from the platform at any time.</li>
-         <li>Collections are limited to 100 items.</li>
- 
+       <ul>        
+         <li>Mixtape is free to use and provided on an ‘as is’ basis.</li>
+         <li>Future availability of the tool and/or collection manifests generated from it cannot be guaranteed.</li>
+         <li>We reserve the right to restrict access and change our conditions of service at any time.</li>
+         <li>Any images or content that we deem to be inappropriate (pornographic, abusive, racist, etc.) or that infringes third-party intellectual property rights may be removed without notice.</li>
+         <li>The creators of Mixtape make no claim to the copyright of images displayed on this website.</li>
+         <li>Manifest collections are limited to 100 items.</li>
+         <li>Unused collections will be automatically removed after a period of three months.</li>
        </ul>
      
 
@@ -88,13 +86,11 @@
     </div>
   </div>
 </div>
-	</form>
-<script>
+</form>
 
 
-</script>
+
 <script src="views/assets/js/validate.js"></script>
-
 
 
   

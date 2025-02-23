@@ -42,3 +42,7 @@ console.log(agree);
 	}
 	return valid;
 }
+
+/*********************** AM I HUMAN **********************/
+
+
