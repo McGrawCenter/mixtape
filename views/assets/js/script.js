@@ -216,8 +216,9 @@ jQuery(document).ready(function() {
         } 
         
         
-        const vault = new IIIFVault.Vault();
-        //const vault = new HyperionVault.Vault();
+        const vault = HyperionVault.globalVault();
+        
+        
         var item = {
             'id': '',
             'type': 'Manifest',
@@ -231,7 +232,7 @@ jQuery(document).ready(function() {
             }]
         }
 
-        vault.loadManifest(url).then(async (m) => {
+        vault.loadManifest(url).then((m) => {
 
             var type = m.type;
 
@@ -269,19 +270,30 @@ jQuery(document).ready(function() {
                         'type': 'Image',
                         'format': 'image/jpeg'
                     }]
+                    
+      console.log(m);
+      var w = vault.fromRef(m.items[0]);
+      console.log(w);
+      var x = vault.fromRef(w.items[0]);
+      console.log(x);
+      var y = vault.fromRef(x.items[0]);
+      console.log(y); 
+      var z = vault.fromRef(y.body[0]);
+      console.log(z.service[0]);
+                      /*    
                     var p1 = vault.get(m.items[0]);
                     var p2 = vault.get(p1.items[0]);
                     var p3 = vault.get(p2.items[0]);
                     var p4 = vault.get(p3.body[0]);
+			*/
 
-
-                    if(Object.prototype.toString.call(p4.service) == '[object Array]') {
-                      if(Object.hasOwn(p4.service[0], 'id'))  { item.thumbnail[0].id = p4.service[0].id + "/full/,300/0/default.jpg"; }
-                      if(Object.hasOwn(p4.service[0], '@id')) { item.thumbnail[0].id = p4.service[0]['@id'] + "/full/,300/0/default.jpg"; }
+                    if(Object.prototype.toString.call(z.service) == '[object Array]') {
+                      if(Object.hasOwn(z.service[0], 'id'))  { item.thumbnail[0].id = z.service[0].id + "/full/,300/0/default.jpg"; }
+                      if(Object.hasOwn(z.service[0], '@id')) { item.thumbnail[0].id = z.service[0]['@id'] + "/full/,300/0/default.jpg"; }
 		     }
                     else {
-                      if(Object.hasOwn(p4.service, 'id'))  { console.log('1');item.thumbnail[0].id = p4.service.id + "/full/,300/0/default.jpg"; }
-                      if(Object.hasOwn(p4.service, '@id')) { console.log('2');item.thumbnail[0].id = p4.service['@id'] + "/full/,300/0/default.jpg"; }
+                      if(Object.hasOwn(z.service, 'id'))  { console.log('1');item.thumbnail[0].id = z.service.id + "/full/,300/0/default.jpg"; }
+                      if(Object.hasOwn(z.service, '@id')) { console.log('2');item.thumbnail[0].id = z.service['@id'] + "/full/,300/0/default.jpg"; }
                     }
 
                    

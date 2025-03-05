@@ -18,11 +18,7 @@
     
     <link rel="stylesheet" href="<?= $siteurl ?>/views/assets/css/style.css">
     
-
-    <!-- import Mirador  -->
-    <!-- <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>   -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@iiif/vault@latest/dist/index.umd.js?ver=6.6.1" id="canvaspanel-js"></script> 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@hyperion-framework/vault@1.1.0/dist/index.umd.js"></script> 
+    <script src="https://unpkg.com/@hyperion-framework/vault@1.0.1/dist/index.umd.js"></script>
     
     <script>
 	var siteurl = "<?= $siteurl ?>";
