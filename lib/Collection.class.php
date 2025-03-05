@@ -30,15 +30,16 @@ class Collection
         }
     }
     
-    function save($token, $jsonobj) {
+    function save($token, $html, $jsonobj) {
 	global $db;
 	$label =   addslashes($jsonobj->label->en[0]);
 	$summary = addslashes($jsonobj->summary->en[0]);
 	$json = addslashes(json_encode($jsonobj));
+	$html = addslashes($html);
 	if(count($jsonobj->items) > 0) {
              $thumbnail = $jsonobj->items[0]->thumbnail[0]->id;
 	}
-        $sql = "UPDATE collection SET label = '{$label}',summary = '{$summary}', thumbnail = '', json = '{$json}' WHERE token = '{$token}'";
+        $sql = "UPDATE collection SET label = '{$label}',summary = '{$summary}', html = \"{$html}\", thumbnail = '', json = '{$json}' WHERE token = '{$token}'";
 	try {
 		$db->query($sql);
 		$o = $this->get($token);
@@ -115,7 +116,7 @@ class Collection
     	
         if (!$this->exists($token)) {
             $now = date("Y-m-d");
-            $sql = "INSERT into collection (`label`,`summary`,`token`,`thumbnail`,`json`,`email`,`expire`,`status`) VALUES ('{$this->label->en[0]}','{$this->summary->en[0]}','{$token}','','{$json}','{$email}', '{$now}', 0)";
+            $sql = "INSERT into collection (`label`,`summary`,`token`,`html`,`thumbnail`,`json`,`email`,`expire`,`status`) VALUES ('{$this->label->en[0]}','{$this->summary->en[0]}','{$token}','','','{$json}','{$email}', '{$now}', 0)";
 
             return $db->query($sql);
         }

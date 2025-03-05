@@ -1,8 +1,8 @@
 <?php
 require 'lib/flight/Flight.php';
 require 'lib/Collection.class.php';
-if(is_file('config.php')) { require 'config.php'; }
-else { die('Config file does not exist'); }
+//require 'lib/Presentation.class.php';
+require 'config.php';
 
 Flight::register('db', 'mysqli', [$CONFIG['host'], $CONFIG['user'], $CONFIG['pass'], $CONFIG['db']]);
 

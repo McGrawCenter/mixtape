@@ -44,7 +44,7 @@
     
     <h2 id='collection-label' contenteditable="true"><?= $label ?></h2>
     <h5 id='collection-summary' contenteditable="true"><?= $summary ?></h5>
-    <div class='addtexticon'><img src="<?= $siteurl ?>/views/assets/images/plus-circle.svg"/></div>
+    <div><img src="<?= $siteurl ?>/views/assets/images/info-circle.svg" id='infoicon' data-bs-toggle="modal" data-bs-target="#infoModal"/></div>
 
     </div>
     <div class='col-3' style='text-align:right;'>
@@ -69,7 +69,14 @@
 
   </div>
   
-  <div class="row" style="margin-top:1em;">
+  
+  
+
+  
+  
+  
+  
+  <div class="row" style="margin-top:2em;">
     <div class="col-12">
     
   <label for="manifest">Add manifest:</label>
@@ -89,7 +96,7 @@
 
 
 
-<div class="container-fluid" id="main">
+<div class="container-fluid" id="main" style="margin-top:2em;">
   <div class="row">
     <div class='col-12'>
    
@@ -104,13 +111,57 @@
 </div>
 
 
+
+<!-- Info Modal -->
+<div class="modal modal-xl fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="margin-top:0px;padding-top:2px;padding-bottom:1.6em">
+
+	  <div class="row" id="infoeditor">
+	    <div class='col-12' style='padding:1em 1em 1em'>
+	    
+	   <div id="editor" class='form-control' style='margin-bottom:1em;height:600px;'><?= $html ?></div>  
+	    
+	    </div>
+	  </div>  
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Include Quill stylesheet -->
+<link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet" />
+<!-- Include the Quill library -->
+<script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
+
+
 <script src="<?= $siteurl ?>/views/assets/js/script.js"></script>
 <script src="<?= $siteurl ?>/views/assets/js/dropzone.js"></script>
 
 <script>
 
+
 var header_height = jQuery("#banner").height();
 jQuery("#main").css('margin-top',(header_height + 40));
+
+  const quill = new Quill('#editor', {
+    modules: {
+      toolbar: [
+        [{ header: [1, 2, false] }],
+        ['bold', 'italic', 'underline','link', { 'list': 'ordered'}, { 'list': 'bullet' }]
+      ],
+    },
+    theme: 'snow'
+  });
 
 </script>
 

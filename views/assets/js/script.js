@@ -118,14 +118,23 @@ jQuery(document).ready(function() {
     });
 
     /***************************
-     * click on collection summary
-     * allow for larger rich text editor
+     * click on collection summary, allow for larger rich text editor
      *******************/
-     /*
-    jQuery("#collection-summary").click(function(){
-      jQuery(".addtexticon").addClass('shown');
+/*
+    jQuery("#infoicon").click(function(){
+      if(!jQuery("#infoeditor").hasClass('shown')) {  jQuery("#infoeditor").addClass('shown'); }
+      else { jQuery("#infoeditor").removeClass('shown') }
+    });  
+ */   
+    jQuery('#editor').blur(function() {
+       save();
     });
-     */
+    jQuery("#editor").focusout(function(){
+       save();
+    });
+    
+ 
+
 
     /*************************** FUNCTIONS *************************/
 
@@ -135,10 +144,12 @@ jQuery(document).ready(function() {
         json.label.en[0] = escapeString(jQuery("#collection-label").text());
         json.summary.en[0] = escapeString(jQuery("#collection-summary").text());
         
+        var html = quill.root.innerHTML;
 
         var d = {
             'action': 'save',
             'token': token,
+            'html': html,
             'json': JSON.stringify(json)
         }
         jQuery.post('../save', d, function(response) {
@@ -349,7 +360,7 @@ jQuery(document).ready(function() {
         //    displaylabel = o.label.en[0].substring(0, 24) + "...";
         //}
 
-        var html = "<div class='card' id='card" + rand + "' data-sort='"+sort+"' data-id='" + o.id + "'><div class='card-img'><img class='card-img-top' src='" + o.thumbnail[0].id + "' alt='" + label + "' title='" + label + "'></div><div class='card-body'><p class='card-title'>" + o.label.en[0] + "</p></div><div class='card-footer'><div class='item-toolbar'><a href='https://mcgrawcenter.github.io/mirador/?manifest=" + o.id + "' target='_blank'><img src='" + siteurl + "/views/assets/images/mirador_logo.png' class='icon'></a><a href='" + o.id + "' target='_blank'><img src='" + siteurl + "/views/assets/images/iiif_logo.png' class='icon'></a><a href='https://mcgrawcenter.github.io/croppingtool/?manifest=" + o.id + "' target='_blank'><img src='" + siteurl + "/views/assets/images/crop.svg' class='icon'></a><a href='#' class='remove' rel='" + o.id + "'><img src='" + siteurl + "/views/assets/images/x.svg' class='icon'></a></div></div></div>";
+        var html = "<div class='card' id='card" + rand + "' data-sort='"+sort+"' data-id='" + o.id + "' style='position:relative'><div class='card-img'><img class='card-img-top' src='" + o.thumbnail[0].id + "' alt='" + label + "' title='" + label + "'></div><div class='card-body'><p class='card-title'>" + o.label.en[0] + "</p></div><div class='card-footer'><div class='item-toolbar'><a href='https://mcgrawcenter.github.io/mirador/?manifest=" + o.id + "' target='_blank'><img src='" + siteurl + "/views/assets/images/mirador_logo.png' class='icon'></a><a href='" + o.id + "' target='_blank'><img src='" + siteurl + "/views/assets/images/iiif_logo.png' class='icon'></a><a href='https://mcgrawcenter.github.io/croppingtool/?manifest=" + o.id + "' target='_blank'><img src='" + siteurl + "/views/assets/images/crop.svg' class='icon'></a><a href='#' class='remove' rel='" + o.id + "'><img src='" + siteurl + "/views/assets/images/x.svg' class='icon'></a></div></div></div>";
         return html;
     }
 

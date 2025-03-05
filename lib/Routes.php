@@ -63,10 +63,13 @@ Flight::route('POST /retrieve', function () {
 ***********************/
 Flight::route('POST /save', function () {
     $token = $_POST['token'];
+    if(isset($_POST['html'])) { $html = $_POST['html']; }
+    else { $html = ""; }
     $json = $_POST['json'];
     $x = json_decode($json);
     $collection = new Collection();
-    $collection->save($token, $x);
+    //$collection->save($token, $info, $x);
+    $collection->save($token, $html, $x);
 });
 
 /***************************
@@ -77,6 +80,7 @@ Flight::route('/@id:[0-9]+', function (string $id) {
     global $db;
     $collection = new Collection();
     $d = $collection->getById($id);
+    $d['html'] = "<div class='htmldisplay'>{$d['html']}</div>";
     $d['siteurl'] = $CONFIG['siteurl'];
     $d['id'] = $id;
     Flight::render('templates/view.php', $d);

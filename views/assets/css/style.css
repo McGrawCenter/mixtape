@@ -70,7 +70,7 @@ label { margin:0 0 0.3em 0.3em; }
 .modal-header {
   display:block !important;
   text-align:right;
-  padding: 0 1em 0.3em;
+  /*padding: 0 1em 0.3em;*/
 }
 .modal-header a { text-decoration:none; }
 
@@ -104,9 +104,42 @@ label { margin:0 0 0.3em 0.3em; }
 .btn-external { 
   background: transparent;
   border: 0; }
-  
-.addtexticon { display:none; }
-.addtexticon.shown { display:block; }
+
+#infoicon { cursor:pointer; }
+#infoeditor {  }
+
+
+.ql-container {
+  font-size: 16px !important;
+  height:97% !important;
+}
+.ql-editor {
+  height:600px !important;
+}
+.htmldisplay { height:600px;overflow-y:scroll; }
+
+#sidebar {
+position:absolute;top:0px;bottom:0px;right:-40%;background:white;width:40%;z-index: 999;transition: right 1s;
+}
+#sidebar.shown {
+  right:0%;
+  transition: right 1s;
+  box-shadow: 0px 0px 10px #555;
+  overflow-y: scroll;
+  height: 90%;
+}
+#sidebar-head {
+  font-size: 2.5em;
+  text-align: right;
+  margin-right: 5%;
+}
+#sidebar-head a {
+  text-decoration: none;
+}
+
+#sidebar-body {
+  margin: 1em;
+}
 
 @media screen and (max-width: 520px) {
   .card {

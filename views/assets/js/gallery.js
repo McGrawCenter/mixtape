@@ -6,8 +6,8 @@
      fetch(manifest)
       .then(response => response.json())
       .then(data =>{
-        jQuery("h2").text(data.label.en[0]);
-        jQuery("h5").text(data.summary.en[0]);
+        jQuery("#collection-label").text(data.label.en[0]);
+        jQuery("#collection-summary").text(data.summary.en[0]);
       
 	 data.items.forEach((item, index) => {
 	    item.counter = index + 1;
@@ -27,6 +27,15 @@ var mirador = Mirador.viewer({
 });
 
 */
+
+	/****************************
+	* close the flyout
+	*****************************/
+	
+	  jQuery(document).on('click','.sidebar-close',function(e) {
+	    jQuery('#sidebar').removeClass('shown');
+	    e.preventDefault();
+	  });   
 
       
     function cardTemplate(o) {
