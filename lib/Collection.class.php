@@ -11,6 +11,7 @@ class Collection
         $this->type = 'Collection';
         $this->label = (object) ['en' => ['']];
         $this->summary = (object) ['en' => ['']];
+        $this->html = "";
         //$this->metadata = array((object) ['label'=>(object)['en'=>['Description']], 'value'=>(object)['en'=>['This is the description']]]);
         //$this->thumbnail = array((object) ["id" => "", "type" => "Image", "format" => "image/jpeg", ]);
         $this->items = [];
