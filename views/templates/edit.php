@@ -141,8 +141,8 @@
 <script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
 
 
-<script src="<?= $siteurl ?>/views/assets/js/script.js"></script>
-<script src="<?= $siteurl ?>/views/assets/js/dropzone.js"></script>
+<script src="<?= $siteurl ?>/views/assets/js/script.js?v=0.0.1"></script>
+<script src="<?= $siteurl ?>/views/assets/js/dropzone.js?v=0.0.1"></script>
 
 <script>
 
