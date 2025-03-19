@@ -51,8 +51,9 @@
     
     <h2 id='collection-label'></h2>
     <h5 id='collection-summary'></h5>
-
-    
+    <?php 
+     //if($html != '') { echo "<a href='#' id='infoicon' alt='Info' title='Info' data-bs-toggle='modal' data-bs-target='#infoModal'>...</a>"; }
+    ?>
 
     </div>
     <div class='col-3' style='text-align:right;'>
@@ -61,7 +62,7 @@
 
   <div class='header-toolbar'>
 
-<a href="#" id='infoicon' alt="Info" title="Info" data-bs-toggle="modal" data-bs-target="#infoModal"><img src="<?= $siteurl ?>/views/assets/images/info-circle.svg" class="icon-35"></a>
+<a href="#" id='infoicon' alt="Info" title="Info" data-bs-toggle="modal" data-bs-target="#infoModal"><img src="<?= $siteurl ?>/views/assets/images/info-circle.svg" class="icon-30"></a>
 <a href="#" data-target="https://mcgrawcenter.github.io/mirador/?manifest=<?= $siteurl ?>/<?= $ID ?>/manifest" id="mirador_link" class="openModal"><img src="<?= $siteurl ?>/views/assets/images/mirador_logo.png" class="icon-lg"></a>
 <a href="#" data-target="<?php echo $siteurl; ?>/<?php echo $id; ?>/manifest" id="manifest_link" class='openModalExternal'><img src="<?= $siteurl ?>/views/assets/images/iiif_logo.png" class="icon-lg"></a>
 <a href="#" data-target="https://mcgrawcenter.github.io/croppingtool/?manifest=<?= $siteurl ?>/<?= $ID ?>/views/manifest" id="croppingtool_link" class='openModal'><img src="<?= $siteurl ?>/views/assets/images/crop.svg" class="icon-lg"></a>
@@ -102,7 +103,7 @@
       </div>
       <div class="modal-body">
 
-         <?= $html; ?>
+         <div class='htmldisplay'><?= $html; ?></div>
         
       </div>
     </div>

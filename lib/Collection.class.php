@@ -68,6 +68,7 @@ class Collection
     {
     	global $db;
         $sql = "SELECT * FROM collection WHERE ID = '{$id}';";
+        $this->id = "https://etcpanel.princeton.edu/IIIF/mixtape/{$id}/manifest";
         if ($result = $db->query($sql)->fetch_assoc()) {
             if(isset($exclude)) { 
               $e = explode(",",$exclude);

@@ -2,6 +2,7 @@
 
 .icon { height:16px }
 .icon-lg { height:32px;margin:0.2em; }
+.icon-30 { height:30px;margin:0.2em; }
 .icon-35 { height:35px;margin:0.2em; }
 
 
@@ -139,6 +140,17 @@ position:absolute;top:0px;bottom:0px;right:-40%;background:white;width:40%;z-ind
 
 #sidebar-body {
   margin: 1em;
+}
+
+.card-counter {
+position:absolute;
+top:5px;
+left:5px;
+background:white;
+border-radius:20px;
+padding: 0.4em 0.6em;
+min-width: 1.8em;
+text-align: center;
 }
 
 @media screen and (max-width: 520px) {

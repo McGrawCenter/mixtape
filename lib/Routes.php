@@ -72,6 +72,8 @@ Flight::route('POST /save', function () {
     $collection->save($token, $html, $x);
 });
 
+
+
 /***************************
 * View
 ***********************/
@@ -80,11 +82,13 @@ Flight::route('/@id:[0-9]+', function (string $id) {
     global $db;
     $collection = new Collection();
     $d = $collection->getById($id);
-    $d['html'] = "<div class='htmldisplay'>{$d['html']}</div>";
+    //$d['html'] = "<div class='htmldisplay'>{$d['html']}</div>";
     $d['siteurl'] = $CONFIG['siteurl'];
     $d['id'] = $id;
     Flight::render('templates/view.php', $d);
 });
+
+
 
 /***************************
 * View - CSV
